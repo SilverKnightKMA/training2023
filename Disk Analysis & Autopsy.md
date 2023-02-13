@@ -21,3 +21,7 @@ filter cột data acess thu được
 ![image](https://user-images.githubusercontent.com/110059218/218468249-d195ea24-4e03-47a9-8a2a-0fa60be0e7df.png)
 ![image](https://user-images.githubusercontent.com/110059218/218469751-25f2516a-81a3-4b9a-ac71-9d5b829dbd7e.png)
 ![image](https://user-images.githubusercontent.com/110059218/218473855-b7b4ccef-db09-4cc5-912d-5a2317f428d3.png)
+## A user bookmarked a Google Maps location. What are the coordinates of the location?
+>theo link bookmarked thôi :v
+![image](https://user-images.githubusercontent.com/110059218/218480050-07821a41-a336-4398-a6fb-45e7025c34c6.png)
+## A user has his full name printed on his desktop wallpaper. What is the user's full name?
