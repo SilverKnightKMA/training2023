@@ -9,3 +9,6 @@ phần này thì em đọc và làm giống hướng dẫn thôi
 ![image](https://user-images.githubusercontent.com/110059218/218536416-f1829537-47ba-428b-99a6-647c4022a1b3.png)
 ## What is Google Dorking?
 ![image](https://user-images.githubusercontent.com/110059218/218537266-34571ccc-0aef-446a-951d-b7fea0ad0340.png)
+## Enter: Search Engine Optimisation
+![image](https://user-images.githubusercontent.com/110059218/218669620-f00784aa-9b84-437f-abff-72e7edbdbc56.png)
+![image](https://user-images.githubusercontent.com/110059218/218671293-54888b01-f393-4c39-8b1f-1f6ef6779f1c.png)
