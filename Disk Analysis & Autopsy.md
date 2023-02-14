@@ -43,3 +43,7 @@ câu này dùng tính năng keyword search về thu được kết quả path b�
 ![image](https://user-images.githubusercontent.com/110059218/218838819-1eb126c8-95b0-44b1-bb34-3846b4238fd9.png)
 ![image](https://user-images.githubusercontent.com/110059218/218839388-1e375ab9-b1f9-44e1-a53b-2336440c4fdd.png)
 ## One of the users wanted to exploit a domain controller with an MS-NRPC based exploit. What is the filename of the archive that you found? (include the spaces in your answer) 
+search MS-NRPC thì cho kết quả là netlogon sau khi đọc một lúc và có thử search keyword netlogon không ra thì thấy exp;oit này có tên gọi chung là zerologon
+dùng tính năng search file name của autospy
+![image](https://user-images.githubusercontent.com/110059218/218844738-57672656-761a-4edd-8d2c-aa4ae89b0c9b.png)
+-> done
