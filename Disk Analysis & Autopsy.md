@@ -1,6 +1,3 @@
-https://www.hackercoolmagazine.com/digital-forensics-with-autopsy-part-2/
-https://www.hackercoolmagazine.com/digital-forensics-with-autopsy-part-1/
-link em search ra để làm theo :)))
 ## What is the MD5 hash of the E01 image?
 mở autospy và dễ dàng tìm được MD5
 ![image](https://user-images.githubusercontent.com/110059218/218314990-111be3a5-961f-42ae-a0a5-3ac9e2dc3fcd.png)
@@ -25,3 +22,24 @@ filter cột data acess thu được
 >theo link bookmarked thôi :v
 ![image](https://user-images.githubusercontent.com/110059218/218480050-07821a41-a336-4398-a6fb-45e7025c34c6.png)
 ## A user has his full name printed on his desktop wallpaper. What is the user's full name?
+![image](https://user-images.githubusercontent.com/110059218/218832182-0342537e-7131-40a7-9e21-dfb594e070e6.png)
+* câu này đơn giản là xuất ảnh và ngồi check thì có thấy joshwa có 1 tấm hình được viết tên ở trên góc mở anh lên và có câu trả lời
+![image](https://user-images.githubusercontent.com/110059218/218832739-44017db9-4caf-47b4-a4d8-0f320a203371.png)
+## A user had a file on her desktop. It had a flag but she changed the flag using PowerShell. What was the first flag
+![image](https://user-images.githubusercontent.com/110059218/218832897-e50519b1-d405-4615-90e7-95d3e63f90da.png)
+* cái này thì em ngồi check từng user một thôi
+![image](https://user-images.githubusercontent.com/110059218/218835024-c135bd9b-05b2-438d-90a4-26f4ac614b07.png)
+![image](https://user-images.githubusercontent.com/110059218/218835639-9942b2ce-f8df-4bc0-8972-7ccbff15035a.png)
+![image](https://user-images.githubusercontent.com/110059218/218835997-d4aca901-553e-450a-bb2e-874b64755ee2.png)
+## The same user found an exploit to escalate privileges on the computer. What was the message to the device owner?
+![image](https://user-images.githubusercontent.com/110059218/218836444-e498e8cf-e05a-4a76-aaf8-d043540a7301.png)
+* vẫn thực hiện check đúng trên user đó
+## The same user found an exploit to escalate privileges on the computer. What was the message to the device owner?
+thường các tool sẽ bị windows denfender lưu lại giờ chỉ cần tìm path về lịch sử thôi
+![image](https://user-images.githubusercontent.com/110059218/218838203-7309d7ca-6dbd-4cc6-b347-1bc9f80bce52.png)
+dễ dàng tìm thấy mimikatz và tên 1 tool khác nữa
+## There is a YARA file on the computer. Inspect the file. What is the name of the author?
+câu này dùng tính năng keyword search về thu được kết quả path bên dưới
+![image](https://user-images.githubusercontent.com/110059218/218838819-1eb126c8-95b0-44b1-bb34-3846b4238fd9.png)
+![image](https://user-images.githubusercontent.com/110059218/218839388-1e375ab9-b1f9-44e1-a53b-2336440c4fdd.png)
+## One of the users wanted to exploit a domain controller with an MS-NRPC based exploit. What is the filename of the archive that you found? (include the spaces in your answer) 
