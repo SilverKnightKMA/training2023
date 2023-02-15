@@ -236,6 +236,16 @@ dùng tính năng search file name của autospy
 ![image](https://user-images.githubusercontent.com/110059218/218677413-bbed680f-2e2e-4ef8-af5f-dbbf7461b86a.png)
 ![image](https://user-images.githubusercontent.com/110059218/218677510-c489e752-4487-4321-81a3-8f92f4487d50.png)
 ![image](https://user-images.githubusercontent.com/110059218/218677545-67d65dd6-6f06-4b70-9c4f-c66ea6feb8e8.png)
+##  Examining Our Patient
+### Running the imageinfo command in Volatility will provide us with a number of profiles we can test with, however, only one will be correct. We can test these profiles using the pslist command, validating our profile selection by the sheer number of returned results. Do this now with the command `volatility -f MEMORY_FILE.raw --profile=PROFILE pslist`. What profile is correct for this memory image?
+![image](https://user-images.githubusercontent.com/110059218/219040189-be54a3a9-2ba0-4c5d-a0f6-9a2dc9de6b16.png)
+### Take a look through the processes within our image. What is the process ID for the smss.exe process? If results are scrolling off-screen, try piping your output into less
+![image](https://user-images.githubusercontent.com/110059218/219040418-ceae7250-5d27-4ce2-bcf9-a08dba70ae6a.png)
+### It's fairly common for malware to attempt to hide itself and the process associated with it. That being said, we can view intentionally hidden processes via the command `psxview`. What process has only one 'False' listed?
+![image](https://user-images.githubusercontent.com/110059218/219042003-1e8768e2-af10-424c-9c3d-2a5cef6b4abd.png)
+### In addition to viewing hidden processes via psxview, we can also check this with a greater focus via the command 'ldrmodules'. Three columns will appear here in the middle, InLoad, InInit, InMem. If any of these are false, that module has likely been injected which is a really bad thing. On a normal system the grep statement above should return no output. Which process has all three columns listed as 'False' (other than System)?
+* theo ảnh ở question trên thì 
+### 
 # redline
 ## Introduction
 ![image](https://user-images.githubusercontent.com/110059218/218943535-e30335b8-2566-43e9-965b-7b9dfcd6e6e8.png)
