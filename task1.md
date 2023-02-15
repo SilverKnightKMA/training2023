@@ -244,8 +244,10 @@ dùng tính năng search file name của autospy
 ### It's fairly common for malware to attempt to hide itself and the process associated with it. That being said, we can view intentionally hidden processes via the command `psxview`. What process has only one 'False' listed?
 ![image](https://user-images.githubusercontent.com/110059218/219042003-1e8768e2-af10-424c-9c3d-2a5cef6b4abd.png)
 ### In addition to viewing hidden processes via psxview, we can also check this with a greater focus via the command 'ldrmodules'. Three columns will appear here in the middle, InLoad, InInit, InMem. If any of these are false, that module has likely been injected which is a really bad thing. On a normal system the grep statement above should return no output. Which process has all three columns listed as 'False' (other than System)?
-* theo ảnh ở question trên thì 
-### 
+![image](https://user-images.githubusercontent.com/110059218/219087791-4b8cea05-dd78-42cf-be2a-dbf36bc0c8a9.png)
+* theo ảnh ở question trên thì đáp án là csrss.exe
+### Injected code can be a huge issue and is highly indicative of very very bad things. We can check for this with the command `malfind`. Using the full command `volatility -f MEMORY_FILE.raw --profile=PROFILE malfind -D <Destination Directory>` we can not only find this code, but also dump it to our specified directory. Let's do this now! We'll use this dump later for more analysis. How many files does this generate?
+
 # redline
 ## Introduction
 ![image](https://user-images.githubusercontent.com/110059218/218943535-e30335b8-2566-43e9-965b-7b9dfcd6e6e8.png)
