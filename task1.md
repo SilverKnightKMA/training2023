@@ -255,8 +255,11 @@ quay lại ảnh của câu hỏi trước dễ thấy PID của csrss.exe là 5
 ![image](https://user-images.githubusercontent.com/110059218/219277789-655387c0-6598-4b72-8c3f-70f1593c86b9.png)
 ##  Post Actions
 ### Upload the extracted files to VirusTotal for examination.
-![image](https://user-images.githubusercontent.com/110059218/219278147-aabcd6e2-b20e-41be-b566-7129829b8a11.png
-### 
+![image](https://user-images.githubusercontent.com/110059218/219426302-1357e23f-aa0e-42f1-b5e5-7e838e733607.png)
+### What malware has our sample been infected with? You can find this in the results of VirusTotal and Hybrid Anaylsis. 
+![image](https://user-images.githubusercontent.com/110059218/219426955-6cafed47-674d-4d72-beba-0f72e51e8f7a.png)
+thực hiện search google một lúc thì em có search ra cridex là tên một malware
+![image](https://user-images.githubusercontent.com/110059218/219427615-12120fcd-126f-40ac-9823-c6fa15b10d86.png)
 # redline
 ## Introduction
 ![image](https://user-images.githubusercontent.com/110059218/218943535-e30335b8-2566-43e9-965b-7b9dfcd6e6e8.png)
