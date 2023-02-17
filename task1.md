@@ -279,3 +279,23 @@ phần này chỉ việc đọc hướng dẫn dùng và trả lời
 ![image](https://user-images.githubusercontent.com/110059218/219615539-caf140e1-9c94-4128-a317-7219dccba45b.png)
 ## Where in the Redline UI can you view information about the Logged in User?
 ### Provide the Operating System detected for the workstation.
+![image](https://user-images.githubusercontent.com/110059218/219678778-cb0ce58f-2dee-41cb-b14b-9d7695c542f2.png)
+### Provide the BIOS Version for the workstation.
+![image](https://user-images.githubusercontent.com/110059218/219678896-5e6c7375-17a4-4ec1-af36-ade3104eba1d.png)
+### What is the suspicious scheduled task that got created on the victim's computer? 
+![image](https://user-images.githubusercontent.com/110059218/219679123-7ea43149-080f-45c9-a825-c2e140aa46fd.png)
+* câu này vào task thì thấy comment hiện khá rõ
+### Find the message that the intruder left for you in the task.
+![image](https://user-images.githubusercontent.com/110059218/219679614-951b56c7-49f8-48b7-80b6-4790a53349ac.png)
+### There is a new System Event ID created by an intruder with the source name "THM-Redline-User" and the Type "ERROR". Find the Event ID #.
+![image](https://user-images.githubusercontent.com/110059218/219679754-f7c32b81-47da-42bb-be21-6698c1cf26a6.png)
+### Provide the message for the Event ID.
+![image](https://user-images.githubusercontent.com/110059218/219679910-2c3b1933-71ce-4e89-932a-8f671d2dcfed.png)
+### It looks like the intruder downloaded a file containing the flag for Question 8. Provide the full URL of the website.
+![image](https://user-images.githubusercontent.com/110059218/219680157-194c514e-8b58-4ec1-8e5f-2bc45268d136.png)
+### Provide the full path to where the file was downloaded to including the filename.
+* lấy đường dẫn từ ảnh của question trên
+### Provide the message the intruder left for you in the file.
+* THM{600D-C@7cH-My-FR1EnD} đi đến thư mục để download xuống và đọc flag thôi
+![image](https://user-images.githubusercontent.com/110059218/219681187-29f3e5e5-4979-4e03-9ff7-76a2aaffcf0d.png)
+## IOC Search Collector
