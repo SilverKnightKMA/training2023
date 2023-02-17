@@ -299,3 +299,36 @@ phần này chỉ việc đọc hướng dẫn dùng và trả lời
 * THM{600D-C@7cH-My-FR1EnD} đi đến thư mục để download xuống và đọc flag thôi
 ![image](https://user-images.githubusercontent.com/110059218/219681187-29f3e5e5-4979-4e03-9ff7-76a2aaffcf0d.png)
 ## IOC Search Collector
+### What is the actual filename of the Keylogger? 
+* psylog.exe
+### What filename is the file masquerading as? 
+![image](https://user-images.githubusercontent.com/110059218/219737463-ff53eb27-399d-4074-a8a8-3d7a9a85dac7.png)
+* THM1768.exe
+### Who is the owner of the file? 
+![image](https://user-images.githubusercontent.com/110059218/219738120-68f06b29-f1c4-46ad-b7d2-2ae5267646f7.png)
+* câu này lấy kết quả từ cột owner sang
+### What is the file size in bytes? 
+![image](https://user-images.githubusercontent.com/110059218/219738952-04a4380f-a461-48b1-b87c-ea78a1a05b54.png)
+### Provide the full path of where the .ioc file was placed after the Redline analysis, include the .ioc filename as well
+![image](https://user-images.githubusercontent.com/110059218/219739936-da2edf25-dc89-4bd2-8521-5524ae76f55b.png)
+##  IOC Search Collector Analysis
+### Provide the path of the file that matched all the artifacts along with the filename.
+
+## Endpoint Investigation
+### Can you identify the product name of the machine?
+![image](https://user-images.githubusercontent.com/110059218/219742264-5724e331-99a1-4a16-9754-766f638c695e.png)
+### Can you find the name of the note left on the Desktop for the "Charles"?
+![image](https://user-images.githubusercontent.com/110059218/219743525-83357787-80f3-46a2-b429-7929d447408d.png)
+### Find the Windows Defender service; what is the name of its service DLL? 
+![image](https://user-images.githubusercontent.com/110059218/219744160-4621a8f2-d80c-48cc-b41c-933ab4bd92fe.png)
+### Provide the filename of the malicious executable that got dropped on the user's Desktop.
+![image](https://user-images.githubusercontent.com/110059218/219744817-2c331368-68a3-4465-8326-098f48d5f838.png)
+> vào file download history search .zip và ra kết quả
+### Provide the filename of the malicious executable that got dropped on the user's Desktop.
+![image](https://user-images.githubusercontent.com/110059218/219749077-f6fba5d2-4dbb-4d9c-9d00-2775650dc88d.png)
+* dùng tính năng search từ khóa
+### Provide the MD5 hash for the dropped malicious executable.
+![image](https://user-images.githubusercontent.com/110059218/219749594-092bc593-870e-4109-b2dd-c9a6c408c64e.png)
+### What is the name of the ransomware? 
+* câu này đơn giản em lấy MD5 hash của nó lên gg search hoặc lấy chính đoạn đuôi của file thực thi
+![image](https://user-images.githubusercontent.com/110059218/219750193-a8278eb8-fa35-439a-96d4-b0051144e719.png)
