@@ -248,7 +248,7 @@ dùng tính năng search file name của autospy
 * theo ảnh ở question trên thì đáp án là csrss.exe
 ### Injected code can be a huge issue and is highly indicative of very very bad things. We can check for this with the command `malfind`. Using the full command `volatility -f MEMORY_FILE.raw --profile=PROFILE malfind -D <Destination Directory>` we can not only find this code, but also dump it to our specified directory. Let's do this now! We'll use this dump later for more analysis. How many files does this generate?
 ![image](https://user-images.githubusercontent.com/110059218/219276325-0bfdfbcb-54d3-458e-aba8-65bb9412e1c1.png)
-### ![image](https://user-images.githubusercontent.com/110059218/219276443-500b3081-7f75-4bd2-91a3-18c4a4ad3bc0.png)
+![image](https://user-images.githubusercontent.com/110059218/219276443-500b3081-7f75-4bd2-91a3-18c4a4ad3bc0.png)
 ![image](https://user-images.githubusercontent.com/110059218/219276818-94f57ccc-13d4-4910-bff1-10fbda7450ce.png)
 ### Now that we've seen all of the DLLs running in memory, let's go a step further and pull them out! Do this now with the command `volatility -f MEMORY_FILE.raw --profile=PROFILE --pid=PID dlldump -D <Destination Directory>` where the PID is the process ID of the infected process we identified earlier (questions five and six). How many DLLs does this end up pulling?
 quay lại ảnh của câu hỏi trước dễ thấy PID của csrss.exe là 584
@@ -264,3 +264,14 @@ thực hiện search google một lúc thì em có search ra cridex là tên m�
 ## Introduction
 ![image](https://user-images.githubusercontent.com/110059218/218943535-e30335b8-2566-43e9-965b-7b9dfcd6e6e8.png)
 ## Data Collection
+### What data collection method takes the least amount of time?
+### You are reading a research paper on a new strain of ransomware. You want to run the data collection on your computer based on the patterns provided, such as domains, hashes, IP addresses, filenames, etc. What method would you choose to run a granular data collection against the known indicators?
+![image](https://user-images.githubusercontent.com/110059218/219562316-fb3ed76c-e467-4492-abff-a3987903a1d8.png)
+### What script would you run to initiate the data collection process? Please include the file extension. 
+![image](https://user-images.githubusercontent.com/110059218/219562409-99b37fed-b420-4e95-a1c7-e647e604c2e1.png)
+### If you want to collect the data on Disks and Volumes, under which option can you find it? 
+![image](https://user-images.githubusercontent.com/110059218/219562941-4aadbbdb-498a-43d5-be46-cba3863c809a.png)
+### What cache does Windows use to maintain a preference for recently executed code? 
+![image](https://user-images.githubusercontent.com/110059218/219563250-934f37a4-a270-44bb-8128-aad87d025ee6.png)
+phần này chỉ việc đọc hướng dẫn dùng và trả lời
+##  The Redline Interface
