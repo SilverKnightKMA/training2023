@@ -275,3 +275,7 @@ thực hiện search google một lúc thì em có search ra cridex là tên m�
 ![image](https://user-images.githubusercontent.com/110059218/219563250-934f37a4-a270-44bb-8128-aad87d025ee6.png)
 phần này chỉ việc đọc hướng dẫn dùng và trả lời
 ##  The Redline Interface
+### Where in the Redline UI can you view information about the Logged in User?
+![image](https://user-images.githubusercontent.com/110059218/219615539-caf140e1-9c94-4128-a317-7219dccba45b.png)
+## Where in the Redline UI can you view information about the Logged in User?
+### Provide the Operating System detected for the workstation.
