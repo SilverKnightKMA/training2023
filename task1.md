@@ -35,8 +35,9 @@ nano is an easy-to-use text editor for Linux. There are arguably better editors 
 >What switch would you use to make a backup when opening a file with nano?
 ![image](https://user-images.githubusercontent.com/110059218/218237886-b0595467-f575-4182-b5ed-f175e4045dad.png)
 >Netcat is a basic tool used to manually send and receive network requests. What command would you use to start netcat in listen mode, using port 12345?
-![image](https://user-images.githubusercontent.com/110059218/218237935-05e946f8-eea6-41c3-8d8d-ffb14eca7346.png)
-
+![image](https://user-images.githubusercontent.com/110059218/219766515-9a5d2f19-0b21-49ac-b67a-b58983dcde43.png)
+![image](https://user-images.githubusercontent.com/110059218/219766542-50f4bf9e-5a09-4c8c-9a16-f512e06489bd.png)
+* đáp án nc -p -l 12345
 # LinuxFundamentalsPart1
 ## A Bit of Background on Linux
 ### Research: What year was the first release of a Linux operating system?
