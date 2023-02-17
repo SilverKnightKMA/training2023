@@ -313,7 +313,21 @@ phần này chỉ việc đọc hướng dẫn dùng và trả lời
 ![image](https://user-images.githubusercontent.com/110059218/219739936-da2edf25-dc89-4bd2-8521-5524ae76f55b.png)
 ##  IOC Search Collector Analysis
 ### Provide the path of the file that matched all the artifacts along with the filename.
-
+![image](https://user-images.githubusercontent.com/110059218/219763824-8e2f4650-266b-43fc-a880-2e197d898a7b.png)
+### Provide the path where the file is located without including the filename.
+> C:\Users\Administrator\AppData\Local\Temp\
+### Who is the owner of the file?
+> BUILTIN\Administrators(từ ảnh trên)
+### Provide the subsystem for the file.
+![image](https://user-images.githubusercontent.com/110059218/219764785-bd28a6c3-f20f-4ad2-a075-be6b3e98441e.png)
+### Provide the Device Path where the file is located.
+![image](https://user-images.githubusercontent.com/110059218/219765226-2957a2cf-84b1-4240-872e-94e64a34b1fb.png)
+### Provide the hash (SHA-256) for the file.
+* có md5 của mã độc lên virus total hoặc hybrid analyse check hoặc theo gợi ý dùng câu lệnh get file-hash trong cmd
+![image](https://user-images.githubusercontent.com/110059218/219766088-eeb9a058-6c6d-4d4d-9af8-40a2008e1320.png)
+### The attacker managed to masquerade the real filename. Can you find it having the hash in your arsenal? 
+* tìm real name thì hint cũng có gợi ý lên virus total :
+![image](https://user-images.githubusercontent.com/110059218/219766281-286a6b63-a4d7-4a5c-ab2c-44b03ff19fe6.png)
 ## Endpoint Investigation
 ### Can you identify the product name of the machine?
 ![image](https://user-images.githubusercontent.com/110059218/219742264-5724e331-99a1-4a16-9754-766f638c695e.png)
