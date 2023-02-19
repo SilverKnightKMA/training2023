@@ -30,3 +30,8 @@ At what date did the compromise take place?
 ![image](https://user-images.githubusercontent.com/110059218/219966755-2c6a32ec-1c11-45db-b3b9-c8d69174d694.png)
 What tool was used to get Windows passwords?
 khi dùng máy ảo cửa sửa của mimikatz cũng hiện liên tục hoặc có thể vào task schedule thấy task có tên gameover dẫn đến thư mục chứa mimimkatz
+What was the attackers external control and command servers IP?
+![image](https://user-images.githubusercontent.com/110059218/219970757-db78cb44-bcca-428b-8556-56181bcadabc.png)
+![image](https://user-images.githubusercontent.com/110059218/219970786-809be824-fd11-4ce1-872c-a9f3130d5109.png)
+# Juicy Details
+> Reconnaissance
