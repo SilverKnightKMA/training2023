@@ -10,3 +10,5 @@ Answer format: MM/DD/YYYY H:MM:SS AM/PM
 What IP does the system connect to when it first starts?
 ![image](https://user-images.githubusercontent.com/110059218/219939570-a3d2da84-ce66-4a2a-8b58-55471a919ccc.png)
 ![image](https://user-images.githubusercontent.com/110059218/219939660-a5707269-73f2-4357-a75d-380ea509e07c.png)
+When did Jenny last logon?
+![image](https://user-images.githubusercontent.com/110059218/219940791-61d215d2-1a34-45e5-8ec0-2cbad17f3c74.png)
