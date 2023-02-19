@@ -24,9 +24,10 @@ có xuất hiện 1 task khá lạ và check trên github thì lại có công d
 What file was the task trying to run daily?
 * nội dung phần action
 What port did this file listen locally for?
-xem hướng dẫn bên github thì sẽ có câu lệnh : nc.ps -l port -> port:1348
+xem hướng dẫn bên github thì sẽ có câu lệnh: nc.ps -l port -> port:1348
+
 At what date did the compromise take place?
-> hỏi thời gian khởi tạo
+hỏi thời gian khởi tạo
 ![image](https://user-images.githubusercontent.com/110059218/219966755-2c6a32ec-1c11-45db-b3b9-c8d69174d694.png)
 What tool was used to get Windows passwords?
 khi dùng máy ảo cửa sửa của mimikatz cũng hiện liên tục hoặc có thể vào task schedule thấy task có tên gameover dẫn đến thư mục chứa mimimkatz
