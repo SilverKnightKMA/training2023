@@ -44,7 +44,7 @@ có hint về việc ẩn dữ liệu trong tấm ảnh nghĩ đến ngay tool b
 thực hiện liên tiếp vài lài thì hiện một file ẩn có tên là flag.txt đọc file thu được
 ![image](https://user-images.githubusercontent.com/110059218/220116105-0ca01147-32e0-4fcb-9ee7-54c3eff26f79.png)
 # Glory of the Garden
-bài này lúc đầu em nghĩ khó hơn nhưng có vẻ dùng strings | grep là done hint nói về hex editor em lúc đầu nghĩ về việc chỉnh sửa header nhưng có lẽ chỉ đọc strings của anh :v
+bài này lúc đầu em nghĩ khó hơn nhưng có vẻ dùng strings | grep là done hint nói về hex editor em lúc đầu nghĩ về việc chỉnh sửa header nhưng có lẽ chỉ đọc strings của ảnh :v
 ![image](https://user-images.githubusercontent.com/110059218/220116740-5e56b1a7-2dd5-48a1-a727-7da0077f11e6.png)
 export object http do em thấy http truyền khá nhiều file
 ![image](https://user-images.githubusercontent.com/110059218/220117361-133328f5-c649-4fa1-ae9b-4edb6002524e.png)
