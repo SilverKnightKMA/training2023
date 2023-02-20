@@ -36,3 +36,27 @@ What was the attackers external control and command servers IP?
 ![image](https://user-images.githubusercontent.com/110059218/219970786-809be824-fd11-4ce1-872c-a9f3130d5109.png)
 # Juicy Details
 > Reconnaissance
+# Matryoshka doll
+có hint về việc ẩn dữ liệu trong tấm ảnh nghĩ đến ngay tool binwalk
+![image](https://user-images.githubusercontent.com/110059218/220115638-60045569-d7f4-4cef-b033-8831a70ce113.png)
+![image](https://user-images.githubusercontent.com/110059218/220115695-f90e0653-869b-431f-84a8-9c9132b36b1a.png)
+![image](https://user-images.githubusercontent.com/110059218/220115920-9c1d75bd-a206-4190-afe7-480b5901039f.png)
+thực hiện liên tiếp vài lài thì hiện một file ẩn có tên là flag.txt đọc file thu được
+![image](https://user-images.githubusercontent.com/110059218/220116105-0ca01147-32e0-4fcb-9ee7-54c3eff26f79.png)
+# Glory of the Garden
+bài này lúc đầu em nghĩ khó hơn nhưng có vẻ dùng strings | grep là done hint nói về hex editor em lúc đầu nghĩ về việc chỉnh sửa header nhưng có lẽ chỉ đọc strings của anh :v
+![image](https://user-images.githubusercontent.com/110059218/220116740-5e56b1a7-2dd5-48a1-a727-7da0077f11e6.png)
+export object http do em thấy http truyền khá nhiều file
+![image](https://user-images.githubusercontent.com/110059218/220117361-133328f5-c649-4fa1-ae9b-4edb6002524e.png)
+thu được file có 1 file có tiêu đề khác các file còn lại em thử mở thì thấy đây là 1 dạng mã hóa rất dễ gặp khi gặp dạng bài network là rot13
+![image](https://user-images.githubusercontent.com/110059218/220117632-d5e835bc-6cba-4fb4-9bd2-9a7228afc114.png)
+![image](https://user-images.githubusercontent.com/110059218/220117749-5950cfa0-1b32-4b4d-adaf-2a75409ebae8.png)
+# packet primer
+![image](https://user-images.githubusercontent.com/110059218/220118066-f356aad8-1dca-4949-a70c-bb4f7a8b5508.png)
+ngay hint đã nói về việc dùng đến analyse để follow stream :v
+![image](https://user-images.githubusercontent.com/110059218/220118204-183d1f90-8655-450d-ba9d-c032ec5e7003.png)
+![image](https://user-images.githubusercontent.com/110059218/220118503-d6becb01-346c-45e9-9667-06cba629f6d4.png)
+flag: picoCTF{p4ck37_5h4rk_01b0a0d6}
+# wireshark 2
+![image](https://user-images.githubusercontent.com/110059218/220119492-fb88cf48-7d77-4c5b-840c-50398689e669.png)
+lúc đầu xuất hiện khá nhiều cờ giả do em k biết đã submit thử
