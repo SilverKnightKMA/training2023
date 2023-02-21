@@ -190,161 +190,161 @@ mở autospy và dễ dàng tìm được MD5
 **What is the computer account name?**
 ![image](https://user-images.githubusercontent.com/110059218/218315127-6f543616-9646-4e08-a880-693555e13b46.png)
 ![image](https://user-images.githubusercontent.com/110059218/218315136-44a13230-249b-4f04-b9a2-75214d07c6ba.png)
-## List all the user accounts. (alphabetical order)
+**List all the user accounts. (alphabetical order)**
 tương tự câu trên liệt kê ra các user theo thứ tự bảng chữ cái trừ những user mặc định
 ![image](https://user-images.githubusercontent.com/110059218/218316374-654c3193-57ee-4725-b979-4087ad9dcb2d.png)
-## Who was the last user to log into the computer?
+**Who was the last user to log into the computer?**
 filter cột data acess thu được
 ![image](https://user-images.githubusercontent.com/110059218/218316635-8e6407d5-327a-45d1-8daf-aa172b56f895.png)
-## What was the IP address of the computer?
+**What was the IP address of the computer?**
 ![image](https://user-images.githubusercontent.com/110059218/218467682-aee83f52-bc9a-4eda-bb5b-3a0e1429741d.png)
-## What was the MAC address of the computer? (XX-XX-XX-XX-XX-XX)
+**What was the MAC address of the computer? (XX-XX-XX-XX-XX-XX)**
 ![image](https://user-images.githubusercontent.com/110059218/218468000-45597de9-d8ba-413c-83cf-d55766dab0ee.png)
-## What is the name of the network card on this computer?
+**What is the name of the network card on this computer?**
 ![image](https://user-images.githubusercontent.com/110059218/218468249-d195ea24-4e03-47a9-8a2a-0fa60be0e7df.png)
 ![image](https://user-images.githubusercontent.com/110059218/218469751-25f2516a-81a3-4b9a-ac71-9d5b829dbd7e.png)
 ![image](https://user-images.githubusercontent.com/110059218/218473855-b7b4ccef-db09-4cc5-912d-5a2317f428d3.png)
-## A user bookmarked a Google Maps location. What are the coordinates of the location?
+**A user bookmarked a Google Maps location. What are the coordinates of the location?**
 >theo link bookmarked thôi :v
 ![image](https://user-images.githubusercontent.com/110059218/218480050-07821a41-a336-4398-a6fb-45e7025c34c6.png)
-## A user has his full name printed on his desktop wallpaper. What is the user's full name?
+**A user has his full name printed on his desktop wallpaper. What is the user's full name?**
 ![image](https://user-images.githubusercontent.com/110059218/218832182-0342537e-7131-40a7-9e21-dfb594e070e6.png)
-* câu này đơn giản là xuất ảnh và ngồi check thì có thấy joshwa có 1 tấm hình được viết tên ở trên góc mở anh lên và có câu trả lời
+**câu này đơn giản là xuất ảnh và ngồi check thì có thấy joshwa có 1 tấm hình được viết tên ở trên góc mở anh lên và có câu trả lời**
 ![image](https://user-images.githubusercontent.com/110059218/218832739-44017db9-4caf-47b4-a4d8-0f320a203371.png)
-## A user had a file on her desktop. It had a flag but she changed the flag using PowerShell. What was the first flag
+**A user had a file on her desktop. It had a flag but she changed the flag using PowerShell. What was the first flag**
 ![image](https://user-images.githubusercontent.com/110059218/218832897-e50519b1-d405-4615-90e7-95d3e63f90da.png)
 * cái này thì em ngồi check từng user một thôi
 ![image](https://user-images.githubusercontent.com/110059218/218835024-c135bd9b-05b2-438d-90a4-26f4ac614b07.png)
 ![image](https://user-images.githubusercontent.com/110059218/218835639-9942b2ce-f8df-4bc0-8972-7ccbff15035a.png)
 ![image](https://user-images.githubusercontent.com/110059218/218835997-d4aca901-553e-450a-bb2e-874b64755ee2.png)
-## The same user found an exploit to escalate privileges on the computer. What was the message to the device owner?
+**The same user found an exploit to escalate privileges on the computer. What was the message to the device owner?**
 ![image](https://user-images.githubusercontent.com/110059218/218836444-e498e8cf-e05a-4a76-aaf8-d043540a7301.png)
 * vẫn thực hiện check đúng trên user đó
-## The same user found an exploit to escalate privileges on the computer. What was the message to the device owner?
+**The same user found an exploit to escalate privileges on the computer. What was the message to the device owner?**
 thường các tool sẽ bị windows denfender lưu lại giờ chỉ cần tìm path về lịch sử thôi
 ![image](https://user-images.githubusercontent.com/110059218/218838203-7309d7ca-6dbd-4cc6-b347-1bc9f80bce52.png)
 dễ dàng tìm thấy mimikatz và tên 1 tool khác nữa
-## There is a YARA file on the computer. Inspect the file. What is the name of the author?
+**There is a YARA file on the computer. Inspect the file. What is the name of the author?**
 câu này dùng tính năng keyword search về thu được kết quả path bên dưới
 ![image](https://user-images.githubusercontent.com/110059218/218838819-1eb126c8-95b0-44b1-bb34-3846b4238fd9.png)
 ![image](https://user-images.githubusercontent.com/110059218/218839388-1e375ab9-b1f9-44e1-a53b-2336440c4fdd.png)
-## One of the users wanted to exploit a domain controller with an MS-NRPC based exploit. What is the filename of the archive that you found? (include the spaces in your answer) 
+**One of the users wanted to exploit a domain controller with an MS-NRPC based exploit. What is the filename of the archive that you found? (include the spaces in your answer)** 
 search MS-NRPC thì cho kết quả là netlogon sau khi đọc một lúc và có thử search keyword netlogon không ra thì thấy exp;oit này có tên gọi chung là zerologon
 dùng tính năng search file name của autospy
 ![image](https://user-images.githubusercontent.com/110059218/218845730-7baca908-0541-499f-8875-9428749fa724.png)
 -> done
 # volatility
-##  Obtaining Memory Samples
+**Obtaining Memory Samples**
 ![image](https://user-images.githubusercontent.com/110059218/218677413-bbed680f-2e2e-4ef8-af5f-dbbf7461b86a.png)
 ![image](https://user-images.githubusercontent.com/110059218/218677510-c489e752-4487-4321-81a3-8f92f4487d50.png)
 ![image](https://user-images.githubusercontent.com/110059218/218677545-67d65dd6-6f06-4b70-9c4f-c66ea6feb8e8.png)
-##  Examining Our Patient
-### Running the imageinfo command in Volatility will provide us with a number of profiles we can test with, however, only one will be correct. We can test these profiles using the pslist command, validating our profile selection by the sheer number of returned results. Do this now with the command `volatility -f MEMORY_FILE.raw --profile=PROFILE pslist`. What profile is correct for this memory image?
+**Examining Our Patient**
+*Running the imageinfo command in Volatility will provide us with a number of profiles we can test with, however, only one will be correct. We can test these profiles using the pslist command, validating our profile selection by the sheer number of returned results. Do this now with the command `volatility -f MEMORY_FILE.raw --profile=PROFILE pslist`. What profile is correct for this memory image?*
 ![image](https://user-images.githubusercontent.com/110059218/219040189-be54a3a9-2ba0-4c5d-a0f6-9a2dc9de6b16.png)
-### Take a look through the processes within our image. What is the process ID for the smss.exe process? If results are scrolling off-screen, try piping your output into less
+*Take a look through the processes within our image. What is the process ID for the smss.exe process? If results are scrolling off-screen, try piping your output into less*
 ![image](https://user-images.githubusercontent.com/110059218/219040418-ceae7250-5d27-4ce2-bcf9-a08dba70ae6a.png)
-### It's fairly common for malware to attempt to hide itself and the process associated with it. That being said, we can view intentionally hidden processes via the command `psxview`. What process has only one 'False' listed?
+*It's fairly common for malware to attempt to hide itself and the process associated with it. That being said, we can view intentionally hidden processes via the command `psxview`. What process has only one 'False' listed?*
 ![image](https://user-images.githubusercontent.com/110059218/219042003-1e8768e2-af10-424c-9c3d-2a5cef6b4abd.png)
-### In addition to viewing hidden processes via psxview, we can also check this with a greater focus via the command 'ldrmodules'. Three columns will appear here in the middle, InLoad, InInit, InMem. If any of these are false, that module has likely been injected which is a really bad thing. On a normal system the grep statement above should return no output. Which process has all three columns listed as 'False' (other than System)?
+*In addition to viewing hidden processes via psxview, we can also check this with a greater focus via the command 'ldrmodules'. Three columns will appear here in the middle, InLoad, InInit, InMem. If any of these are false, that module has likely been injected which is a really bad thing. On a normal system the grep statement above should return no output. Which process has all three columns listed as 'False' (other than System)?*
 ![image](https://user-images.githubusercontent.com/110059218/219087791-4b8cea05-dd78-42cf-be2a-dbf36bc0c8a9.png)
 * theo ảnh ở question trên thì đáp án là csrss.exe
-### Injected code can be a huge issue and is highly indicative of very very bad things. We can check for this with the command `malfind`. Using the full command `volatility -f MEMORY_FILE.raw --profile=PROFILE malfind -D <Destination Directory>` we can not only find this code, but also dump it to our specified directory. Let's do this now! We'll use this dump later for more analysis. How many files does this generate?
+*Injected code can be a huge issue and is highly indicative of very very bad things. We can check for this with the command `malfind`. Using the full command `volatility -f MEMORY_FILE.raw --profile=PROFILE malfind -D <Destination Directory>` we can not only find this code, but also dump it to our specified directory. Let's do this now! We'll use this dump later for more analysis. How many files does this generate?*
 ![image](https://user-images.githubusercontent.com/110059218/219276325-0bfdfbcb-54d3-458e-aba8-65bb9412e1c1.png)
 ![image](https://user-images.githubusercontent.com/110059218/219276443-500b3081-7f75-4bd2-91a3-18c4a4ad3bc0.png)
 ![image](https://user-images.githubusercontent.com/110059218/219276818-94f57ccc-13d4-4910-bff1-10fbda7450ce.png)
-### Now that we've seen all of the DLLs running in memory, let's go a step further and pull them out! Do this now with the command `volatility -f MEMORY_FILE.raw --profile=PROFILE --pid=PID dlldump -D <Destination Directory>` where the PID is the process ID of the infected process we identified earlier (questions five and six). How many DLLs does this end up pulling?
+*Now that we've seen all of the DLLs running in memory, let's go a step further and pull them out! Do this now with the command `volatility -f MEMORY_FILE.raw --profile=PROFILE --pid=PID dlldump -D <Destination Directory>` where the PID is the process ID of the infected process we identified earlier (questions five and six). How many DLLs does this end up pulling?*
 quay lại ảnh của câu hỏi trước dễ thấy PID của csrss.exe là 584
 ![image](https://user-images.githubusercontent.com/110059218/219277789-655387c0-6598-4b72-8c3f-70f1593c86b9.png)
-##  Post Actions
-### Upload the extracted files to VirusTotal for examination.
+**Post Actions**
+*Upload the extracted files to VirusTotal for examination.*
 ![image](https://user-images.githubusercontent.com/110059218/219426302-1357e23f-aa0e-42f1-b5e5-7e838e733607.png)
-### What malware has our sample been infected with? You can find this in the results of VirusTotal and Hybrid Anaylsis. 
+*What malware has our sample been infected with? You can find this in the results of VirusTotal and Hybrid Anaylsis.*
 ![image](https://user-images.githubusercontent.com/110059218/219426955-6cafed47-674d-4d72-beba-0f72e51e8f7a.png)
 thực hiện search google một lúc thì em có search ra cridex là tên một malware
 ![image](https://user-images.githubusercontent.com/110059218/219427615-12120fcd-126f-40ac-9823-c6fa15b10d86.png)
 # redline
-## Introduction
+**Introduction**
 ![image](https://user-images.githubusercontent.com/110059218/218943535-e30335b8-2566-43e9-965b-7b9dfcd6e6e8.png)
-## Data Collection
-### What data collection method takes the least amount of time?
-### You are reading a research paper on a new strain of ransomware. You want to run the data collection on your computer based on the patterns provided, such as domains, hashes, IP addresses, filenames, etc. What method would you choose to run a granular data collection against the known indicators?
+**Data Collection**
+*What data collection method takes the least amount of time?*
+*You are reading a research paper on a new strain of ransomware. You want to run the data collection on your computer based on the patterns provided, such as domains, hashes, IP addresses, filenames, etc. What method would you choose to run a granular data collection against the known indicators?*
 ![image](https://user-images.githubusercontent.com/110059218/219562316-fb3ed76c-e467-4492-abff-a3987903a1d8.png)
-### What script would you run to initiate the data collection process? Please include the file extension. 
+*What script would you run to initiate the data collection process? Please include the file extension.*
 ![image](https://user-images.githubusercontent.com/110059218/219562409-99b37fed-b420-4e95-a1c7-e647e604c2e1.png)
-### If you want to collect the data on Disks and Volumes, under which option can you find it? 
+*If you want to collect the data on Disks and Volumes, under which option can you find it?*
 ![image](https://user-images.githubusercontent.com/110059218/219562941-4aadbbdb-498a-43d5-be46-cba3863c809a.png)
-### What cache does Windows use to maintain a preference for recently executed code? 
+*What cache does Windows use to maintain a preference for recently executed code?*
 ![image](https://user-images.githubusercontent.com/110059218/219563250-934f37a4-a270-44bb-8128-aad87d025ee6.png)
 phần này chỉ việc đọc hướng dẫn dùng và trả lời
-##  The Redline Interface
-### Where in the Redline UI can you view information about the Logged in User?
+**The Redline Interface**
+*Where in the Redline UI can you view information about the Logged in User?*
 ![image](https://user-images.githubusercontent.com/110059218/219615539-caf140e1-9c94-4128-a317-7219dccba45b.png)
-## Where in the Redline UI can you view information about the Logged in User?
-### Provide the Operating System detected for the workstation.
+**Where in the Redline UI can you view information about the Logged in User?**
+*Provide the Operating System detected for the workstation.*
 ![image](https://user-images.githubusercontent.com/110059218/219678778-cb0ce58f-2dee-41cb-b14b-9d7695c542f2.png)
-### Provide the BIOS Version for the workstation.
+*Provide the BIOS Version for the workstation.*
 ![image](https://user-images.githubusercontent.com/110059218/219678896-5e6c7375-17a4-4ec1-af36-ade3104eba1d.png)
-### What is the suspicious scheduled task that got created on the victim's computer? 
+*What is the suspicious scheduled task that got created on the victim's computer?*
 ![image](https://user-images.githubusercontent.com/110059218/219679123-7ea43149-080f-45c9-a825-c2e140aa46fd.png)
 * câu này vào task thì thấy comment hiện khá rõ
-### Find the message that the intruder left for you in the task.
+*Find the message that the intruder left for you in the task.*
 ![image](https://user-images.githubusercontent.com/110059218/219679614-951b56c7-49f8-48b7-80b6-4790a53349ac.png)
-### There is a new System Event ID created by an intruder with the source name "THM-Redline-User" and the Type "ERROR". Find the Event ID #.
+*There is a new System Event ID created by an intruder with the source name "THM-Redline-User" and the Type "ERROR". Find the Event ID #.*
 ![image](https://user-images.githubusercontent.com/110059218/219679754-f7c32b81-47da-42bb-be21-6698c1cf26a6.png)
-### Provide the message for the Event ID.
+*Provide the message for the Event ID.*
 ![image](https://user-images.githubusercontent.com/110059218/219679910-2c3b1933-71ce-4e89-932a-8f671d2dcfed.png)
-### It looks like the intruder downloaded a file containing the flag for Question 8. Provide the full URL of the website.
+*It looks like the intruder downloaded a file containing the flag for Question 8. Provide the full URL of the website.*
 ![image](https://user-images.githubusercontent.com/110059218/219680157-194c514e-8b58-4ec1-8e5f-2bc45268d136.png)
-### Provide the full path to where the file was downloaded to including the filename.
+*Provide the full path to where the file was downloaded to including the filename.*
 * lấy đường dẫn từ ảnh của question trên
-### Provide the message the intruder left for you in the file.
+*Provide the message the intruder left for you in the file.*
 * THM{600D-C@7cH-My-FR1EnD} đi đến thư mục để download xuống và đọc flag thôi
 ![image](https://user-images.githubusercontent.com/110059218/219681187-29f3e5e5-4979-4e03-9ff7-76a2aaffcf0d.png)
-## IOC Search Collector
-### What is the actual filename of the Keylogger? 
+**IOC Search Collector**
+*What is the actual filename of the Keylogger? *
 * psylog.exe
-### What filename is the file masquerading as? 
+*What filename is the file masquerading as?*
 ![image](https://user-images.githubusercontent.com/110059218/219737463-ff53eb27-399d-4074-a8a8-3d7a9a85dac7.png)
 * THM1768.exe
-### Who is the owner of the file? 
+*Who is the owner of the file?*
 ![image](https://user-images.githubusercontent.com/110059218/219738120-68f06b29-f1c4-46ad-b7d2-2ae5267646f7.png)
 * câu này lấy kết quả từ cột owner sang
-### What is the file size in bytes? 
+*What is the file size in bytes?* 
 ![image](https://user-images.githubusercontent.com/110059218/219738952-04a4380f-a461-48b1-b87c-ea78a1a05b54.png)
-### Provide the full path of where the .ioc file was placed after the Redline analysis, include the .ioc filename as well
+*Provide the full path of where the .ioc file was placed after the Redline analysis, include the .ioc filename as well*
 ![image](https://user-images.githubusercontent.com/110059218/219739936-da2edf25-dc89-4bd2-8521-5524ae76f55b.png)
-##  IOC Search Collector Analysis
-### Provide the path of the file that matched all the artifacts along with the filename.
+**IOC Search Collector Analysis**
+*Provide the path of the file that matched all the artifacts along with the filename.*
 ![image](https://user-images.githubusercontent.com/110059218/219763824-8e2f4650-266b-43fc-a880-2e197d898a7b.png)
-### Provide the path where the file is located without including the filename.
+*Provide the path where the file is located without including the filename.*
 > C:\Users\Administrator\AppData\Local\Temp\
-### Who is the owner of the file?
+*Who is the owner of the file?*
 > BUILTIN\Administrators(từ ảnh trên)
-### Provide the subsystem for the file.
+*Provide the subsystem for the file.*
 ![image](https://user-images.githubusercontent.com/110059218/219764785-bd28a6c3-f20f-4ad2-a075-be6b3e98441e.png)
-### Provide the Device Path where the file is located.
+*Provide the Device Path where the file is located.*
 ![image](https://user-images.githubusercontent.com/110059218/219765226-2957a2cf-84b1-4240-872e-94e64a34b1fb.png)
-### Provide the hash (SHA-256) for the file.
+*Provide the hash (SHA-256) for the file.*
 * có md5 của mã độc lên virus total hoặc hybrid analyse check hoặc theo gợi ý dùng câu lệnh get file-hash trong cmd
 ![image](https://user-images.githubusercontent.com/110059218/219766088-eeb9a058-6c6d-4d4d-9af8-40a2008e1320.png)
-### The attacker managed to masquerade the real filename. Can you find it having the hash in your arsenal? 
+*The attacker managed to masquerade the real filename. Can you find it having the hash in your arsenal?*
 * tìm real name thì hint cũng có gợi ý lên virus total :
 ![image](https://user-images.githubusercontent.com/110059218/219766281-286a6b63-a4d7-4a5c-ab2c-44b03ff19fe6.png)
-## Endpoint Investigation
-### Can you identify the product name of the machine?
+**Endpoint Investigation**
+*Can you identify the product name of the machine?*
 ![image](https://user-images.githubusercontent.com/110059218/219742264-5724e331-99a1-4a16-9754-766f638c695e.png)
-### Can you find the name of the note left on the Desktop for the "Charles"?
+*Can you find the name of the note left on the Desktop for the "Charles"?*
 ![image](https://user-images.githubusercontent.com/110059218/219743525-83357787-80f3-46a2-b429-7929d447408d.png)
-### Find the Windows Defender service; what is the name of its service DLL? 
+*Find the Windows Defender service; what is the name of its service DLL?*
 ![image](https://user-images.githubusercontent.com/110059218/219744160-4621a8f2-d80c-48cc-b41c-933ab4bd92fe.png)
-### Provide the filename of the malicious executable that got dropped on the user's Desktop.
+*Provide the filename of the malicious executable that got dropped on the user's Desktop.*
 ![image](https://user-images.githubusercontent.com/110059218/219744817-2c331368-68a3-4465-8326-098f48d5f838.png)
 > vào file download history search .zip và ra kết quả
-### Provide the filename of the malicious executable that got dropped on the user's Desktop.
+*Provide the filename of the malicious executable that got dropped on the user's Desktop.*
 ![image](https://user-images.githubusercontent.com/110059218/219749077-f6fba5d2-4dbb-4d9c-9d00-2775650dc88d.png)
 * dùng tính năng search từ khóa
-### Provide the MD5 hash for the dropped malicious executable.
+*Provide the MD5 hash for the dropped malicious executable.*
 ![image](https://user-images.githubusercontent.com/110059218/219749594-092bc593-870e-4109-b2dd-c9a6c408c64e.png)
-### What is the name of the ransomware? 
+*What is the name of the ransomware?*
 * câu này đơn giản em lấy MD5 hash của nó lên gg search hoặc lấy chính đoạn đuôi của file thực thi
 ![image](https://user-images.githubusercontent.com/110059218/219750193-a8278eb8-fa35-439a-96d4-b0051144e719.png)
