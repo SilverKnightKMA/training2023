@@ -37,7 +37,8 @@ khi dùng máy ảo cửa sửa của mimikatz cũng hiện liên tục hoặc c
 thực hiện mở file host như đường dẫn
 ![image](https://user-images.githubusercontent.com/110059218/219970786-809be824-fd11-4ce1-872c-a9f3130d5109.png)
 ![image](https://user-images.githubusercontent.com/110059218/220363662-4bab65d8-bb95-491a-b40d-a494c7886549.png)
-khi mở file host ra chúng ta thấy các trang như virustotal,... đều bị chặn khi để ip cục bộ khiến không thể truy cập có lẽ kẻ tấn công không muốn người dùng có thể vào được các trang này
+khi mở file host ra chúng ta thấy các trang như virustotal,... đều bị chặn khi để ip cục bộ khiến không thể truy cập có lẽ kẻ tấn công không muốn người dùng có thể vào được các trang này, câu trả lời sẽ là: 76.32.97.132
+
 **At what time did Windows first assign special privileges to a new logon?**
 thực hiện mở event viewer mở phần security logon special có event id là 4672 thực hiện filter theo id đó và sort theo date
 ![image](https://user-images.githubusercontent.com/110059218/220365478-e95122c6-cb1a-45bd-99ae-b76b516287d6.png)
