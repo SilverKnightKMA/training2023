@@ -1,154 +1,155 @@
 # Introductory Research Walkthrough
-## Task 2  Example Research Question
-### In the Burp Suite Program that ships with Kali Linux, what mode would you use to manually send a request (often repeating a captured request numerous times)?:
+**Task 2  Example Research Question**
+*In the Burp Suite Program that ships with Kali Linux, what mode would you use to manually send a request (often repeating a captured request numerous times)?:*
 https://brainly.com/question/25315695?cb=1676085236358
 ![image](https://user-images.githubusercontent.com/110059218/218236273-1d42e7d7-135b-4c64-87e1-712278ee9945.png)
-#### What hash format are modern Windows login passwords stored in?:
+*What hash format are modern Windows login passwords stored in?:*
 ![image](https://user-images.githubusercontent.com/110059218/218236351-82c73e80-edec-4c70-a900-b7f39052a4a3.png)
 > The user passwords are stored in a hashed format in a registry hive either as an LM hash or as an NTLM hash.
 > >các password được mã hóa ở dạng LM hash hoặc NTLM hash nhưng LM hash có tính bảo mật yếu hơn nên thường sẽ dùng NTLM hash.
 > >LAN Manager authentication uses a particularly weak method of hashing a user's password known as the LM hash algorithm, stemming from the mid 1980s when viruses transmitted by floppy disks were the major concern.[6] Although it is based on DES, a well-studied block cipher, the LM hash has several weaknesses in its design.[7] This makes such hashes crackable in a matter of seconds using rainbow tables, or in a few minutes using brute force. Starting with Windows NT, it was replaced by NTLM, which is still vulnerable to rainbow tables, and brute force attacks unless long, unpredictable passwords are used, see password cracking.
 > >vậy câu trả lời sẽ là NTLM
-### What are automated tasks called in Linux?
+*What are automated tasks called in Linux?*
 ![image](https://user-images.githubusercontent.com/110059218/218236655-aa1912b9-865a-4474-8a0c-884ffef0e8cb.png)
 >cron jobs có tác dụng giúp bạn làm những công việc định kì, tự động hóa trên linux
-### What number base could you use as a shorthand for base 2 (binary)?
+*What number base could you use as a shorthand for base 2 (binary)?*
 >hệ cơ số hexa 2^4 nên chúng ta có thể nhóm 4 bit của hệ 2 thành 1 số trong hệ cơ số hexa
-### If a password hash starts with $6$, what format is it (Unix variant)?
+*If a password hash starts with $6$, what format is it (Unix variant)?*
 ![image](https://user-images.githubusercontent.com/110059218/218236799-927738c9-f9ac-4340-8667-b29cad901e09.png)
-## What is the CVE for the 2020 Cross-Site Scripting (XSS) vulnerability found in WPForms?
+*What is the CVE for the 2020 Cross-Site Scripting (XSS) vulnerability found in WPForms?*
 > search CVE mitre: WPForms 2020 thu được:
 ![image](https://user-images.githubusercontent.com/110059218/218236946-534f28da-409b-419d-8579-971ae38d9107.png)
-### There was a Local Privilege Escalation vulnerability found in the Debian version of Apache Tomcat, back in 2016. What's the CVE for this vulnerability?
+*There was a Local Privilege Escalation vulnerability found in the Debian version of Apache Tomcat, back in 2016. What's the CVE for this vulnerability?*
 ![image](https://user-images.githubusercontent.com/110059218/218236984-92bd9700-3c2f-4310-9d40-37482641da6c.png)
-### What is the very first CVE found in the VLC media player?
+*What is the very first CVE found in the VLC media player?*
 ![image](https://user-images.githubusercontent.com/110059218/218237057-5acda158-390a-480c-8f27-2f738bcc9f57.png)
-### If you wanted to exploit a 2020 buffer overflow in the sudo program, which CVE would you use?
+*If you wanted to exploit a 2020 buffer overflow in the sudo program, which CVE would you use?*
 ![image](https://user-images.githubusercontent.com/110059218/218237293-0824820d-e33e-49d6-9bdf-87799b4df425.png)
 ![image](https://user-images.githubusercontent.com/110059218/218237305-f4461940-ee75-4d3d-ae5b-bf8c27f737b3.png)
 ![image](https://user-images.githubusercontent.com/110059218/218237311-4390d6cd-d86c-4521-893d-22b360d0cfd2.png)
-##  Manual Pages:
+**Manual Pages:**
 ![image](https://user-images.githubusercontent.com/110059218/218237404-efa2a482-6d70-4a76-86d0-bc1175c0f1ad.png)
->fdisk is a command used to view and alter the partitioning scheme used on your hard drive. What switch would you use to list the current partitions?:
+>fdisk is a command used to view and alter the partitioning scheme used on your hard drive.
+*What switch would you use to list the current partitions?:*
 ![image](https://user-images.githubusercontent.com/110059218/218237507-1b83ce5c-d937-40d0-ba8c-edbfdf3016c8.png)
-nano is an easy-to-use text editor for Linux. There are arguably better editors (Vim, being the obvious choice); however, nano is a great one to start with.
->What switch would you use to make a backup when opening a file with nano?
+*nano is an easy-to-use text editor for Linux. There are arguably better editors (Vim, being the obvious choice); however, nano is a great one to start with.*
+*What switch would you use to make a backup when opening a file with nano?*
 ![image](https://user-images.githubusercontent.com/110059218/218237886-b0595467-f575-4182-b5ed-f175e4045dad.png)
->Netcat is a basic tool used to manually send and receive network requests. What command would you use to start netcat in listen mode, using port 12345?
+*Netcat is a basic tool used to manually send and receive network requests. What command would you use to start netcat in listen mode, using port 12345?*
 ![image](https://user-images.githubusercontent.com/110059218/219766515-9a5d2f19-0b21-49ac-b67a-b58983dcde43.png)
 ![image](https://user-images.githubusercontent.com/110059218/219766542-50f4bf9e-5a09-4c8c-9a16-f512e06489bd.png)
 * đáp án nc -p -l 12345
 # LinuxFundamentalsPart1
-## A Bit of Background on Linux
-### Research: What year was the first release of a Linux operating system?
+**A Bit of Background on Linux**
+*Research: What year was the first release of a Linux operating system?*
 ![image](https://user-images.githubusercontent.com/110059218/218238086-078971af-62db-455e-b6ec-af3ad562656e.png)
-### Running Your First few Commands
+*Running Your First few Commands*
 >If we wanted to output the text "TryHackMe", what would our command be?: echo TryHackMe
-### What is the username of who you're logged in as on your deployed Linux machine?
+*What is the username of who you're logged in as on your deployed Linux machine?*
 ![image](https://user-images.githubusercontent.com/110059218/218238176-5ba9abf4-df6b-479b-9da0-4fc37e920f2d.png)
-## Interacting With the Filesystem!
+**Interacting With the Filesystem!**
 ![image](https://user-images.githubusercontent.com/110059218/218238443-4ee66114-e8f0-4f22-ad3b-437034ab09c8.png)
 ![image](https://user-images.githubusercontent.com/110059218/218238464-4a5fe5a2-4c5a-4308-a1cc-3eab106880f5.png)
-## Searching for Files
+**Searching for Files**
 ![image](https://user-images.githubusercontent.com/110059218/218238552-31c07662-ec7a-4154-8c99-c1199811a29c.png)
 ![image](https://user-images.githubusercontent.com/110059218/218238559-6d9467fb-4cd1-4f14-8072-f778d8244070.png)
-## An Introduction to Shell Operators
+**An Introduction to Shell Operators**
 ![image](https://user-images.githubusercontent.com/110059218/218238892-d55b3c5c-ba23-46d0-9618-154db8c2084d.png)
 # LinuxFundamentalsPart2
-## Introduction to Flags and Switches
+**Introduction to Flags and Switches**
 ![image](https://user-images.githubusercontent.com/110059218/218239973-9ee543ea-7fa5-4767-a47c-fbf406e58894.png)
 ![image](https://user-images.githubusercontent.com/110059218/218239982-b6104382-bb8b-438e-8646-681e91092641.png)
-## Filesystem Interaction Continued
+**Filesystem Interaction Continued**
 ![image](https://user-images.githubusercontent.com/110059218/218240133-ca643b49-4b57-47eb-ab3b-406dee3075b1.png)
-## Permissions 101
+**Permissions 101**
 ![image](https://user-images.githubusercontent.com/110059218/218240189-fb864f8d-ce0b-4da0-809f-866fa7627089.png)
-## Common Directories
+**Common Directories**
 ![image](https://user-images.githubusercontent.com/110059218/218242522-a56b74c1-059e-4e4a-b084-6d2b8b6b35b2.png)
 # LinuxFundamentalsPart3
-## Terminal Text Editors
+**Terminal Text Editors**
 ![image](https://user-images.githubusercontent.com/110059218/218243016-2f2cc41a-861b-4764-9a28-3c0e0593105a.png)
-## General/Useful Utilities
+**General/Useful Utilities**
 ![image](https://user-images.githubusercontent.com/110059218/218243425-ffe9d3bd-0554-441d-933c-9ceace45fb49.png)
-## Processes 101
+**Processes 101**
 ![image](https://user-images.githubusercontent.com/110059218/218244391-5bebce7d-114f-404e-a877-2a2d9d0d6366.png)
-## Maintaining Your System: Automation
+**Maintaining Your System: Automation**
 ![image](https://user-images.githubusercontent.com/110059218/218244906-f4a417c8-e0ba-4cf9-bbef-706576f2b7a2.png)
-## Maintaining Your System: Package Management
+**Maintaining Your System: Package Management**
 ![image](https://user-images.githubusercontent.com/110059218/218245541-11fffe93-48a3-481f-afef-8eae35b67279.png)
 # Google Dorking
-## Let's Learn About Crawlers
+**Let's Learn About Crawlers**
 ![image](https://user-images.githubusercontent.com/110059218/218246728-2b8bf15c-d6b9-4933-8a02-03903e762cb2.png)
 ![image](https://user-images.githubusercontent.com/110059218/218246732-3d9aa3db-5874-426c-a57f-f5da43e3bb4d.png)
-## Beepboop - Robots.txt
+**Beepboop - Robots.txt**
 phần này thì em đọc và làm giống hướng dẫn thôi
 ![image](https://user-images.githubusercontent.com/110059218/218534425-32d320f2-3a24-47ac-8d4e-014f6f118a6a.png)
 ![image](https://user-images.githubusercontent.com/110059218/218535447-dcea6fda-778b-4d7e-8c7b-7d0cb4175e6f.png)
-## Sitemaps
+**Sitemaps**
 ![image](https://user-images.githubusercontent.com/110059218/218536416-f1829537-47ba-428b-99a6-647c4022a1b3.png)
-## What is Google Dorking?
+**What is Google Dorking?**
 ![image](https://user-images.githubusercontent.com/110059218/218537266-34571ccc-0aef-446a-951d-b7fea0ad0340.png)
-## Enter: Search Engine Optimisation
+**Enter: Search Engine Optimisation**
 ![image](https://user-images.githubusercontent.com/110059218/218669620-f00784aa-9b84-437f-abff-72e7edbdbc56.png)
 ![image](https://user-images.githubusercontent.com/110059218/218671293-54888b01-f393-4c39-8b1f-1f6ef6779f1c.png)
 # OhSint
-## What is this users avatar of?
+**What is this users avatar of?**
 dùng exiftool:
 ![image](https://user-images.githubusercontent.com/110059218/218248344-485e2cf5-49a5-45bc-8b04-6e5862f0668e.png)
 thu được tên người dùng là OWoodflint
 tìm được thấy twitter có hình đại diện là một con mèo nên câu trả lời đầu tiên sẽ là cat
-## What city is this person in?
-## Whats the SSID of the WAP he connected to?
+**What city is this person in?**
+**Whats the SSID of the WAP he connected to?**
 >dùng chức năng advance search của wigle.net
 ![image](https://user-images.githubusercontent.com/110059218/218248388-2ec35045-0e6a-49a2-9e8a-e846f05262aa.png)
 tìm được câu trả lời cho câu hỏi 2 và 3 lần lượt là LonDon và UnileverWiFi
-## What is his personal email address?
+**What is his personal email address?**
 ![image](https://user-images.githubusercontent.com/110059218/218248570-d6205208-d552-481d-ad2f-6c3fe1539545.png)
 vào github lấy được gmail của chủ sở hữu :OWoodflint@gmail.com
-## What site did you find his email address on?:github
-## Where has he gone on holiday?
+**What site did you find his email address on?:github**
+**Where has he gone on holiday?**
 google tìm thấy một trang wordpress của owoodflint có nội dung 
 ![image](https://user-images.githubusercontent.com/110059218/218248780-4dc94591-8e4a-4062-98e8-a6c5ee8772fc.png)
 -> New York
-## What is this persons password?
+**What is this persons password?**
 do wordpress là trang của người dùng phải tự giấu thông tin nên nó khả nghi nhất trong khi twtitter và github bảo mật về mật khẩu khá tốt em check từng phần trong web thì phần dưới có để màu trắng
 ![image](https://user-images.githubusercontent.com/110059218/218249259-067514f6-5927-47f0-a184-0ece916af016.png)
 # shodan
-## Filters
+**Filters**
 ![image](https://user-images.githubusercontent.com/110059218/218293604-69585a9b-7015-4512-8e9d-4792e5ff563b.png)
 ![image](https://user-images.githubusercontent.com/110059218/218293599-5fdc9e75-7046-4657-afaf-ac4211901893.png)
-## Google & Filtering
-### What is the 2nd most popular country for MYSQL servers in Google's ASN?
+**Google & Filtering**
+*What is the 2nd most popular country for MYSQL servers in Google's ASN?*
 ![image](https://user-images.githubusercontent.com/110059218/218820411-d672994c-b0cf-4f8b-9287-176632313d94.png)
-### What is the top operating system for MYSQL servers in Google's ASN? 
+*What is the top operating system for MYSQL servers in Google's ASN?*
 ![image](https://user-images.githubusercontent.com/110059218/218821064-7b9258f3-58c4-47e4-8c0d-196541f1806b.png)
 ![image](https://user-images.githubusercontent.com/110059218/218821081-fd415c94-4995-4f6f-9861-51727394558c.png)
 * cái này em dùng kết quả của hint do bài ra từ khoảng năm 2021 nên chắc có thể đã được update
-### Under Google's ASN, which is more popular for nginx, Hypertext Transfer Protocol or Hypertext Transfer Protocol with SSL?
+*Under Google's ASN, which is more popular for nginx, Hypertext Transfer Protocol or Hypertext Transfer Protocol with SSL?*
 ![image](https://user-images.githubusercontent.com/110059218/218821737-1a61b7c4-d044-41b0-8613-44ab2f1cefaa.png)
 * giao thức này cũng khá là phổ biến nên em nghĩ không cần nói gì thêm
-### Under Google's ASN, what is the most popular city?
+*Under Google's ASN, what is the most popular city?*
 ![image](https://user-images.githubusercontent.com/110059218/218824440-a2fbe7c3-699c-4290-a654-e393f54f21ab.png)
 * câu này lại ra kq khác có lẽ tryhackme lâu không update bài này
-### Under Google's ASN in Los Angeles, what is the top operating system according to Shodan?
+*Under Google's ASN in Los Angeles, what is the top operating system according to Shodan?*
 ![image](https://user-images.githubusercontent.com/110059218/218826869-bb70a119-03b4-4b7c-81bb-5a7221008d5e.png)
 ![image](https://user-images.githubusercontent.com/110059218/218826928-da33bd1c-926b-487d-b377-eb8d88664fd2.png)
 * có lẽ đây vẫn là câu tryhackme chưa cập nhật
-### Using the top Webcam search from the explore page, does Google's ASN have any webcams? Yay / nay.
+*Using the top Webcam search from the explore page, does Google's ASN have any webcams? Yay / nay.*
 ![image](https://user-images.githubusercontent.com/110059218/218827185-82cb021b-9ad7-4a38-bb20-1c62a37b2057.png)
 * tiếp tục là 1 câu sai của tryhackme
 ![image](https://user-images.githubusercontent.com/110059218/218827346-fea7c475-95b4-4948-b959-66a370f2427e.png)
-##  Shodan Monitor
+**Shodan Monitor**
 * câu này chỉ đơn giản là copy đường link phía trên
 ![image](https://user-images.githubusercontent.com/110059218/218827595-757829f9-b61e-46cc-bb25-6b31ff64cf72.png)
-##  Shodan Dorking
+**Shodan Dorking**
 ![image](https://user-images.githubusercontent.com/110059218/218827744-22f5d0bb-1196-48a3-84cd-f274e3a711ed.png)
 # Introdigitalforensics
-## Introduction To Digital Forensics
+**Introduction To Digital Forensics**
 ![image](https://user-images.githubusercontent.com/110059218/218290750-5ccffa7e-14da-4ec4-bc95-a59eab729bed.png)
-## Digital Forensics Process
+**Digital Forensics Process**
 ![image](https://user-images.githubusercontent.com/110059218/218290759-8a760866-8405-4456-8c85-08a0aaf18b27.png)
 ![image](https://user-images.githubusercontent.com/110059218/218290768-f32cd132-5ae9-4bb8-ab8b-046b7e094f0a.png)
-## Practical Example of Digital Forensics
+**Practical Example of Digital Forensics**
 ![image](https://user-images.githubusercontent.com/110059218/218291015-9870ec1e-966f-46da-ac42-526d25ba0191.png)
 ![image](https://user-images.githubusercontent.com/110059218/218290897-16916b22-d5a4-4f50-aeef-511faa114a00.png)
 ![image](https://user-images.githubusercontent.com/110059218/218290987-d736f16f-2477-4a2b-9ac8-a67bbfaaead7.png)
@@ -157,36 +158,36 @@ do wordpress là trang của người dùng phải tự giấu thông tin nên n
 ![image](https://user-images.githubusercontent.com/110059218/218291126-7580afc9-a232-436a-8812-ca7a7aa0bc93.png)
 ![image](https://user-images.githubusercontent.com/110059218/218291130-f7a05871-7abe-4e35-aa67-767968852520.png)
 # Windows Fundamentals 1
-## Windows Editions
+**Windows Editions**
 ![image](https://user-images.githubusercontent.com/110059218/218509423-3470dd29-2cb3-4af0-bbf5-1ad22c264b14.png)
 ![image](https://user-images.githubusercontent.com/110059218/218509535-5492c60f-1221-4791-8518-d8460fbbcc39.png)
 search google dễ dàng thấy được câu trả lời là bitlocker
-## The Desktop (GUI)
+**The Desktop (GUI)**
 ![image](https://user-images.githubusercontent.com/110059218/218511782-42ebbf3c-187d-4e35-9891-d0d5d7c6b01d.png)
-## The File System
+**The File System**
 ![image](https://user-images.githubusercontent.com/110059218/218520063-c9b335c6-5383-43b3-9407-fc3eca3e56f3.png)
 ![image](https://user-images.githubusercontent.com/110059218/218520141-94d8fcc1-f7b5-4410-9da7-8e683da8d3dd.png)
-## The Windows\System32 Folders
+**The Windows\System32 Folders**
 ![image](https://user-images.githubusercontent.com/110059218/218520581-a1175be8-2a9a-49b3-a214-9b9c48602847.png)
 ![image](https://user-images.githubusercontent.com/110059218/218520646-40eec3f5-ff82-41ad-a5be-cc4ee833693f.png)
-## User Accounts, Profiles, and Permissions
+**User Accounts, Profiles, and Permissions**
 ![image](https://user-images.githubusercontent.com/110059218/218521343-b4307fd6-5a22-4418-b4ee-7fff7a06e584.png)
 ![image](https://user-images.githubusercontent.com/110059218/218521377-0ad608a5-92c7-4687-86c2-91e4a02560fd.png)
 ![image](https://user-images.githubusercontent.com/110059218/218521769-1afc17f2-27b9-4f71-9474-6a8014be6a9e.png)
 ![image](https://user-images.githubusercontent.com/110059218/218522045-ac666ecf-8b6d-46bc-a34e-259e5c79e821.png)
 ![image](https://user-images.githubusercontent.com/110059218/218522355-01075a41-7d33-4fe8-9cba-e7cc47bb2c19.png)
-## User Account Control
+**User Account Control**
 ![image](https://user-images.githubusercontent.com/110059218/218523703-d2f6f53c-f0ad-4ed2-a013-5dced8960ba7.png)
-## Settings and the Control Panel
+**Settings and the Control Panel**
 ![image](https://user-images.githubusercontent.com/110059218/218525086-1f46f8e3-8571-415d-a5d6-92f6d506fe49.png)
 ![image](https://user-images.githubusercontent.com/110059218/218525141-7d5138a9-3730-483e-b3c6-742769ca1a98.png)
-## task manager
+**task manager**
 ![image](https://user-images.githubusercontent.com/110059218/218525849-3f3a837d-51f9-43a6-8891-3e39a347e56d.png)
 # Autospy
-## What is the MD5 hash of the E01 image?
+**What is the MD5 hash of the E01 image?**
 mở autospy và dễ dàng tìm được MD5
 ![image](https://user-images.githubusercontent.com/110059218/218314990-111be3a5-961f-42ae-a0a5-3ac9e2dc3fcd.png)
-## What is the computer account name?
+**What is the computer account name?**
 ![image](https://user-images.githubusercontent.com/110059218/218315127-6f543616-9646-4e08-a880-693555e13b46.png)
 ![image](https://user-images.githubusercontent.com/110059218/218315136-44a13230-249b-4f04-b9a2-75214d07c6ba.png)
 ## List all the user accounts. (alphabetical order)
