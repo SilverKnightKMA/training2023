@@ -56,7 +56,22 @@ tham khảo một số kiến thức thêm tại: https://superuser.com/question
 **Check for DNS poisoning, what site was targeted?**
 dựa vào việc đổi ip của attacker trong câu trước dễ dàng có thể xác định được tên miền bị tấn công là google.com
 # Juicy Details
-> Reconnaissance
+**Reconnaissance**
+mở file và thực hiện đọc lần lượt từ trên xuống dưới để tìm tên tool 
+![image](https://user-images.githubusercontent.com/110059218/220645566-552d5584-f68e-4234-a8ef-dc5c6377d30c.png)
+**What endpoint was vulnerable to a brute-force attack?**
+dễ dàng nghĩ đến việc tấn công brute-force thường nhằm vào password đồng thời hydra cũng là 1 tool brute-force 
+![image](https://user-images.githubusercontent.com/110059218/220651478-6b077254-aeba-4ebe-9d29-9cfa3eae61ef.png)
+**What endpoint was vulnerable to SQL injection?**
+nghĩ ngay đến sqlmap
+![image](https://user-images.githubusercontent.com/110059218/220652769-773e858b-8436-476b-8185-8f5f2ad59ca4.png)
+**What parameter was used for the SQL injection?**
+https://www.geeksforgeeks.org/use-sqlmap-test-website-sql-injection-vulnerability/
+tham khảm về tutorial của sqlmap đọc theo thì tham số được sử dụng sẽ là q
+**What endpoint did the attacker try to use to retrieve files? (Include the /)**
+xuất file thì chắc chắn phải là những hành động cuối cùng nên sẽ đi về cuối log search về tool feroxbuster có tác dụng như anh
+![image](https://user-images.githubusercontent.com/110059218/220660512-5db35dc4-0b85-45d5-9b9c-fcc908f9a993.png)
+tìm được câu trả lời là ftp 
 # Matryoshka doll
 có hint về việc ẩn dữ liệu trong tấm ảnh nghĩ đến ngay tool binwalk
 ![image](https://user-images.githubusercontent.com/110059218/220115638-60045569-d7f4-4cef-b033-8831a70ce113.png)
