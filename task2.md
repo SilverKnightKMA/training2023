@@ -93,6 +93,7 @@ tên đăng nhập là anon nhưng khi submit lại báo sai thì tên anon này
 ![image](https://user-images.githubusercontent.com/110059218/220699562-09afd29e-c096-4aa3-832d-e5a13787ef43.png)
 ***What service and username were used to gain shell access to the server? (service, username)***
 em thực hiện search về tác dụng của các file log thì có search ra 1 file log liên quan đến việc xác thực tài khoản
+https://www.bkns.vn/cac-file-log-quan-trong-tren-linux.html#:~:text=File%20log%20%2Fvar%2Flog%2Fauth.log&text=Ch%E1%BB%A9a%20th%C3%B4ng%20tin%20x%C3%A1c%20th%E1%BB%B1c,ki%E1%BA%BFm%20trong%20file%20log%20n%C3%A0y.
 ![image](https://user-images.githubusercontent.com/110059218/220699985-b17e2c3a-7d97-429e-a56f-3d53da3ed97f.png)
 khi vào auth.log dễ dàng nhận ra service mà hacker dùng chính là ssh và tấn công brute-force 
 ![image](https://user-images.githubusercontent.com/110059218/220700272-f45afd1f-341c-46be-8618-3597aca0a7c2.png)
