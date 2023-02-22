@@ -59,19 +59,44 @@ dựa vào việc đổi ip của attacker trong câu trước dễ dàng có th
 **Reconnaissance**
 mở file và thực hiện đọc lần lượt từ trên xuống dưới để tìm tên tool 
 ![image](https://user-images.githubusercontent.com/110059218/220645566-552d5584-f68e-4234-a8ef-dc5c6377d30c.png)
-**What endpoint was vulnerable to a brute-force attack?**
+***What endpoint was vulnerable to a brute-force attack?***
 dễ dàng nghĩ đến việc tấn công brute-force thường nhằm vào password đồng thời hydra cũng là 1 tool brute-force 
 ![image](https://user-images.githubusercontent.com/110059218/220651478-6b077254-aeba-4ebe-9d29-9cfa3eae61ef.png)
-**What endpoint was vulnerable to SQL injection?**
+***What endpoint was vulnerable to SQL injection?***
 nghĩ ngay đến sqlmap
 ![image](https://user-images.githubusercontent.com/110059218/220652769-773e858b-8436-476b-8185-8f5f2ad59ca4.png)
-**What parameter was used for the SQL injection?**
+***What parameter was used for the SQL injection?***
 https://www.geeksforgeeks.org/use-sqlmap-test-website-sql-injection-vulnerability/
 tham khảm về tutorial của sqlmap đọc theo thì tham số được sử dụng sẽ là q
-**What endpoint did the attacker try to use to retrieve files? (Include the /)**
-xuất file thì chắc chắn phải là những hành động cuối cùng nên sẽ đi về cuối log search về tool feroxbuster có tác dụng như anh
+***What endpoint did the attacker try to use to retrieve files? (Include the /)***
+xuất file thì chắc chắn phải là những hành động cuối cùng nên sẽ đi về cuối log search về tool feroxbuster có tác dụng như ảnh
 ![image](https://user-images.githubusercontent.com/110059218/220660512-5db35dc4-0b85-45d5-9b9c-fcc908f9a993.png)
 tìm được câu trả lời là ftp 
+**Stolen data**
+***Where can customers usually comment on a shopping website?***
+hint: Where can customers usually comment on a shopping website?
+nghĩ đến ngay các đường link dẫn đến các sản phẩm xem lại log thì thấy được nmap quét 
+![image](https://user-images.githubusercontent.com/110059218/220666735-3e80beea-ae8f-4a10-93fc-1a4675961af8.png)
+-> comment đánh giá về sản phẩm : product reviews
+***Was their brute-force attack successful? If so, what is the timestamp of the successful login? (Yay/Nay, 11/Apr/2021:09:xx:xx +0000)***
+vào log lọc và đọc thông tin về hydra sau một hồi tìm hiểu thì nhưng mã như 401,500,501 là những mã báo lỗi còn mã 200 831 là báo thành công
+![image](https://user-images.githubusercontent.com/110059218/220693619-93f68a61-47b7-4eda-9d0f-b3d861fe80f8.png)
+***What user information was the attacker able to retrieve from the endpoint vulnerable to SQL injection?***
+![image](https://user-images.githubusercontent.com/110059218/220695922-5e5020be-0376-4941-ac19-cc5de19e7820.png)
+như ở câu đầu tiên về việc lấy email thì hacker thực hiện việc tải xuống qua lệnh curl
+***What files did they try to download from the vulnerable endpoint? (endpoint from the previous task, question #5)***
+câu này chỉ cần lấy tên file ở đuôi câu 5 phần trước
+![image](https://user-images.githubusercontent.com/110059218/220696666-8409fb97-673c-4931-8f32-2ff3e409fb5f.png)
+***What service and account name were used to retrieve files from the previous question? (service, username)***
+dựa vào vài câu hỏi bên trên thì có thể trả lời service: ftp còn user vào check file vsftpd.log(là file log ghi lại quá trình đăng nhập)
+tên đăng nhập là anon nhưng khi submit lại báo sai thì tên anon này liên tưởng đến nhóm hacker mũ đen anonymous và cái tên này cũng có nghĩa  là vô danh
+![image](https://user-images.githubusercontent.com/110059218/220699562-09afd29e-c096-4aa3-832d-e5a13787ef43.png)
+***What service and username were used to gain shell access to the server? (service, username)***
+em thực hiện search về tác dụng của các file log thì có search ra 1 file log liên quan đến việc xác thực tài khoản
+![image](https://user-images.githubusercontent.com/110059218/220699985-b17e2c3a-7d97-429e-a56f-3d53da3ed97f.png)
+khi vào auth.log dễ dàng nhận ra service mà hacker dùng chính là ssh và tấn công brute-force 
+![image](https://user-images.githubusercontent.com/110059218/220700272-f45afd1f-341c-46be-8618-3597aca0a7c2.png)
+username:www-data
 # Matryoshka doll
 có hint về việc ẩn dữ liệu trong tấm ảnh nghĩ đến ngay tool binwalk
 ![image](https://user-images.githubusercontent.com/110059218/220115638-60045569-d7f4-4cef-b033-8831a70ce113.png)
