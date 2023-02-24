@@ -146,3 +146,46 @@ dựa vào hint đầu bài cho tìm từ giây thứ 11 đến giây thứ 30 s
 **Which certificate authority issued the SSL certificate to the first domain from the previous question?**
 follow tcp stream của source đầu tiên để lấy thông tin về nơi cấp cert
 ![image](https://user-images.githubusercontent.com/110059218/221184236-eddce33a-b7fa-4dd1-a7e4-8d2ff18a93ea.png)
+**What are the two IP addresses of the Cobalt Strike servers? Use VirusTotal (the Community tab) to confirm if IPs are identified as Cobalt Strike C2 servers. (answer format: enter the IP addresses in sequential order)**
+http thường được lưu ở cổng 8080 và 80 chọn statistíc -> conversation
+lọc packet truyền nhiều nhất ở port 8080 và 80
+![image](https://user-images.githubusercontent.com/110059218/221217539-84192e99-0ad6-4f84-9715-1240c0269b4f.png)
+![image](https://user-images.githubusercontent.com/110059218/221218412-bba9f1d6-1376-416e-aba1-bd812ffd09d3.png)
+**What is the Host header for the first Cobalt Strike IP address from the previous question?**
+filter ip.addr == 185.106.96.158
+follow tcp stream lấy tên host
+![image](https://user-images.githubusercontent.com/110059218/221220998-8f453140-3dea-4d82-baa2-5a255ec39c36.png)
+**What is the domain name for the first IP address of the Cobalt Strike server? You may use VirusTotal to confirm if it's the Cobalt Strike server (check the Community tab).**
+lên virustotal và search ip của câu trên
+![image](https://user-images.githubusercontent.com/110059218/221219098-4d2c8362-a9b8-463a-992b-42364963a3a5.png)
+**What is the domain name of the second Cobalt Strike server IP?  You may use VirusTotal to confirm if it's the Cobalt Strike server (check the Community tab).**
+![image](https://user-images.githubusercontent.com/110059218/221222027-96b8366b-4de4-4497-bc7f-1c27cdeb9e9a.png)
+**What is the domain name of the post-infection traffic?**
+thực hiện filter POST
+![image](https://user-images.githubusercontent.com/110059218/221225451-a86bf509-8da0-4db0-9f00-351498cff23a.png)
+tên source là tên câu trả lời 
+**What are the first eleven characters that the victim host sends out to the malicious domain involved in the post-infection traffic?**
+phần info lấy 11 chữ cái đầu
+![image](https://user-images.githubusercontent.com/110059218/221225892-ff1f7655-995c-4adb-a2a5-6de199f97eec.png)
+**What was the length for the first packet sent out to the C2 server?**
+length là phần độ dài của gói tin
+![image](https://user-images.githubusercontent.com/110059218/221226423-97afaa0b-9dc4-4eec-b0ad-2b18c70becf6.png)
+
+**What was the Server header for the malicious domain from the previous question?**
+![image](https://user-images.githubusercontent.com/110059218/221227196-8e702285-77c0-4c97-b006-69b3782db1f6.png)
+follow http stream lấy tên server
+![image](https://user-images.githubusercontent.com/110059218/221227441-e1d4d47f-b670-4628-9115-32cea484642d.png)
+**The malware used an API to check for the IP address of the victim’s machine. What was the date and time when the DNS query for the IP check domain occurred? (answer format: yyyy-mm-dd hh:mm:ss UTC)**
+![image](https://user-images.githubusercontent.com/110059218/221241996-f97317df-0b77-4050-b4c8-a440a28f0b31.png)
+filter api rồi nhập các time đầu tiên kết nối tới mà malware sử dụng search thử thì có 1 api liên quan đến malware
+**What was the domain in the DNS query from the previous question?**
+lấy tên domain từ câu trước nhập vào
+**Looks like there was some malicious spam (malspam) activity going on. What was the first MAIL FROM address observed in the traffic?**
+search trên mạng về giao thức của email là smtp,pop,imap
+filter các giao thức trên với contains MAIL FROM và lấy mail đầu tiên
+![image](https://user-images.githubusercontent.com/110059218/221244594-a9fd538b-e743-4a56-9e25-111ef70f6621.png)
+**How many packets were observed for the SMTP traffic?**
+vào statistics chọn protocol hierarchy
+![image](https://user-images.githubusercontent.com/110059218/221245389-1c82ce7e-bdef-4576-bfc1-28128394cd88.png)
+![image](https://user-images.githubusercontent.com/110059218/221245279-75229256-f6a5-4f4c-862a-d8cd9f2654e6.png)
+số packet là 1439
