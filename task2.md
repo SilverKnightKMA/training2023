@@ -123,6 +123,27 @@ flag: picoCTF{p4ck37_5h4rk_01b0a0d6}
 # wireshark 2
 ![image](https://user-images.githubusercontent.com/110059218/220119492-fb88cf48-7d77-4c5b-840c-50398689e669.png)
 lúc đầu xuất hiện khá nhiều cờ giả do em k biết đã submit thử
+chú ý những lần gửi cờ giả đều đến từ dst giống nhau dựa vài đó có thể lọc ra
+để ý thì dns gửi những chuỗi kí tự ghép lại giống base64:cGljb0NURntkbnNfM3hmMWxfZnR3X2RlYWRiZWVmfQ==
+decode ta thu được cờ
+![image](https://user-images.githubusercontent.com/110059218/221247759-47881be1-82fa-489d-839b-55b468b7bf1a.png)
+# Trivial Flag Transfer Protocol
+![image](https://user-images.githubusercontent.com/110059218/221250346-68c34a6a-1083-4d26-a204-188ea84f733e.png)
+khi mới mở file bằng wireshark có thể thấy đã có gói được đẩy lên
+export object tftp để lấy các gói dữ liệu đã gửi
+![image](https://user-images.githubusercontent.com/110059218/221251349-ecf44a95-fab4-40f4-8eaf-ef9c8b3db962.png)
+giải mã rot13 và cắt chuỗi cho hợp lý được thông điệp(file instructions.txt)
+![image](https://user-images.githubusercontent.com/110059218/221250179-ac8d4f82-cff3-41ff-bf55-b12c0fd93d25.png)
+![image](https://user-images.githubusercontent.com/110059218/221251203-7fda12c3-e91c-4249-8d7d-29eb4f71d346.png)
+thông điệp thứ 2 từ file plan
+từ đó ta thực hiện stego các ảnh 
+![image](https://user-images.githubusercontent.com/110059218/221254714-2bda4886-07ea-4a4b-9bb9-0eb6782082dd.png)
+giải nén file deb xem bên trong có gì 
+![image](https://user-images.githubusercontent.com/110059218/221255121-ec7ebb66-8fae-4d21-91f7-6807ec4df055.png)
+các file đều chỉ dẫn tới 1 tool có thể mã hóa tệp khác trong ảnh là steghide
+dùng steghide với cả 3 hình và mật khẩu tác giả có để trong plan là DUEDILIGENCE
+![image](https://user-images.githubusercontent.com/110059218/221255923-e41683c8-e0df-4605-9a84-736664ee819f.png)
+![Uploading image.png…]()
 # Carnage
 **What was the date and time for the first HTTP connection to the malicious IP?**
 thực hiện lọc luồng http lấy time đầu tiên được kết nối
