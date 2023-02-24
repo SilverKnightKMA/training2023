@@ -123,3 +123,26 @@ flag: picoCTF{p4ck37_5h4rk_01b0a0d6}
 # wireshark 2
 ![image](https://user-images.githubusercontent.com/110059218/220119492-fb88cf48-7d77-4c5b-840c-50398689e669.png)
 lúc đầu xuất hiện khá nhiều cờ giả do em k biết đã submit thử
+# Carnage
+**What was the date and time for the first HTTP connection to the malicious IP?**
+thực hiện lọc luồng http lấy time đầu tiên được kết nối
+![image](https://user-images.githubusercontent.com/110059218/221173634-aeceba0c-262d-427a-8c66-dda3fffeee52.png)
+**What is the name of the zip file that was downloaded?**
+![image](https://user-images.githubusercontent.com/110059218/221173689-c6db0e9e-eef4-44a4-98e1-635c37221c18.png)
+đọc cột info để lấy thông tin tệp tải xuống
+**What was the domain hosting the malicious zip file?**
+thực hiện follow http stream
+![image](https://user-images.githubusercontent.com/110059218/221173863-208c2df5-c388-421d-9f0a-5cddf4710538.png)
+**What is the name of the webserver of the malicious IP from which the zip file was downloaded?**
+![image](https://user-images.githubusercontent.com/110059218/221174035-319f00a0-796a-4155-94b2-e00249d5ffdd.png)
+phần dưới có hiển thị phần file trong file zip được tải xuống ở luồng 
+**What is the version of the webserver from the previous question?**
+![image](https://user-images.githubusercontent.com/110059218/221174136-bb2583d0-ba97-4493-8558-0ce9eb35e7cf.png)
+phần x-powered-by thể hiện cho version của webserver
+**Malicious files were downloaded to the victim host from multiple domains. What were the three domains involved with this activity?**
+đọc sơ qua 1 số bài về https cộng với trong file thì cho thấy port mà SSL/TLS kết nối đến là 443
+![image](https://user-images.githubusercontent.com/110059218/221183825-69ee819a-fbd1-4c11-a463-20cffa8121f2.png)
+dựa vào hint đầu bài cho tìm từ giây thứ 11 đến giây thứ 30 sẽ có 3 source khác nhau
+**Which certificate authority issued the SSL certificate to the first domain from the previous question?**
+follow tcp stream của source đầu tiên để lấy thông tin về nơi cấp cert
+![image](https://user-images.githubusercontent.com/110059218/221184236-eddce33a-b7fa-4dd1-a7e4-8d2ff18a93ea.png)
