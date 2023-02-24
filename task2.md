@@ -143,7 +143,7 @@ giải nén file deb xem bên trong có gì
 các file đều chỉ dẫn tới 1 tool có thể mã hóa tệp khác trong ảnh là steghide
 dùng steghide với cả 3 hình và mật khẩu tác giả có để trong plan là DUEDILIGENCE
 ![image](https://user-images.githubusercontent.com/110059218/221255923-e41683c8-e0df-4605-9a84-736664ee819f.png)
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/110059218/221257064-f3949903-3d78-4b41-b817-3a4fa1977cc3.png)
 # Carnage
 **What was the date and time for the first HTTP connection to the malicious IP?**
 thực hiện lọc luồng http lấy time đầu tiên được kết nối
