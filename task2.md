@@ -222,3 +222,93 @@ vào statistics chọn protocol hierarchy
 ![image](https://user-images.githubusercontent.com/110059218/221245389-1c82ce7e-bdef-4576-bfc1-28128394cd88.png)
 ![image](https://user-images.githubusercontent.com/110059218/221245279-75229256-f6a5-4f4c-862a-d8cd9f2654e6.png)
 số packet là 1439
+# What Lies Within
+![image](https://user-images.githubusercontent.com/110059218/221367339-9de55f80-344e-41ac-bb1b-134d9651f8f7.png)
+dùng tool stego online decode ra flag
+# Squidgame
+***Attacker1***
+đầu tiên chúng ta dùng oletools 1 công cụ để phân tích các file word
+![image](https://user-images.githubusercontent.com/110059218/221367479-ffab62e4-5d6e-4422-8d61-da7a493d0e91.png)
+sau khi phân tích thì có thể đọc documents để biết thêm về cách thức ẩn dữ liệu 
+![image](https://user-images.githubusercontent.com/110059218/221367550-873ea5aa-3c69-43e4-8652-2a56522c53de.png)
+đa số là các phép cộng các chuỗi nhưng có 1 đoạn replace mà chúng ta cần để ý
+![image](https://user-images.githubusercontent.com/110059218/221367601-869397ad-b253-48ce-8ebc-920bb7d20598.png)
+mở ở phần 4 có 1 đoạn chuỗi khớp với thuật toán mã hóa bên trên
+![image](https://user-images.githubusercontent.com/110059218/221367740-9d20796e-3819-4cdd-ad86-a2cbaa5aefb2.png)
+kết quả sau khi decode
+![image](https://user-images.githubusercontent.com/110059218/221367984-6977c7c0-2aa3-4d34-9c94-2bdce0d9fc78.png)
+**What is the malicious C2 domain you found in the maldoc where an executable download was attempted?**
+http://fpetraardella.band/xap_102b-AZ1/704e.php?l=litten4.gas
+![image](https://user-images.githubusercontent.com/110059218/221368098-1e849675-1969-4d14-9deb-eee9fce5f2b6.png)
+**What executable file is the maldoc trying to drop?**
+![image](https://user-images.githubusercontent.com/110059218/221368122-f60ba5c3-fc3a-4bd8-a67a-ab3d75b158a3.png)
+![image](https://user-images.githubusercontent.com/110059218/221368261-292fbbd7-4e29-4820-8b4e-895c67943b0f.png)
+**In what folder is it dropping the malicious executable? (hint: %Folder%)**
+câu này có 1 đoạn liên quan đến path
+search thì thấy folder là 
+![image](https://user-images.githubusercontent.com/110059218/221368414-fbf62cde-6789-4db1-9f38-ca777f9fc3b9.png)
+**Provide the name of the COM object the maldoc is trying to access.**
+
+gợi ý check trường clsid
+![image](https://user-images.githubusercontent.com/110059218/221368466-8b9e0e99-8a1c-48f6-92e1-4c2ebfa3ecff.png)
+search google về id thì ra kết quả là
+![image](https://user-images.githubusercontent.com/110059218/221368530-dc114d1f-a9f6-4df8-bbf5-b66b47ad9e74.png)
+**Include the malicious IP and the php extension found in the maldoc. (Format: IP/name.php)**
+câu này thì hiện khá rõ ràng 
+![image](https://user-images.githubusercontent.com/110059218/221368572-305ea32b-2ca1-4ca8-b77a-b4092e8d7c0d.png)
+**Find the phone number in the maldoc. (Answer format: xxx-xxx-xxxx)**
+check meta file thì có hiện số điện thoại của author
+![image](https://user-images.githubusercontent.com/110059218/221368645-3073c72f-e0e4-45dc-8df1-6f2319aaa12b.png)
+**Doing some static analysis, provide the type of maldoc this is under the keyword “AutoOpen”.**
+![image](https://user-images.githubusercontent.com/110059218/221368725-95d83cf7-99cc-414d-988f-7d8166f5beb5.png)
+một công cụ khác trong oletool
+![image](https://user-images.githubusercontent.com/110059218/221368791-817ad3de-c3e2-41dc-be6f-6ef490bd0188.png)
+dùng tool + pipe + grep để ra đáp án
+
+**Provide the subject for this maldoc. (make sure to remove the extra whitespace)**
+subject lấy từ phần check file của câu phone number 
+![image](https://user-images.githubusercontent.com/110059218/221368964-b4e60447-18cf-4919-9847-ac5c86c0d8be.png)
+
+**Provide the time when this document was last saved. (Format: YEAR-MONTH-DAY XX:XX:XX)**
+hint : Use oletimes
+![image](https://user-images.githubusercontent.com/110059218/221369026-bc58b0ed-3b67-4565-a51d-071df34df295.png)
+
+**Provide the stream number that contains a macro.**
+![image](https://user-images.githubusercontent.com/110059218/221369122-a019c596-601a-494e-ab05-f2acb8dfca88.png)
+stream 8 có contains Macro
+
+**Provide the name of the stream that contains a macro.**
+name:ThisDocuments
+
+***Attacker2***
+**Provide the streams (numbers) that contain macros.**
+![image](https://user-images.githubusercontent.com/110059218/221369507-797ab01c-3a06-4c4a-bbd9-2fb53add695f.png)
+có 4 luồng đang chứa macro
+**Provide the size (bytes) of the compiled code for the second stream that contains a macro.**
+lấy đáp án từ ảnh của câu trên: 13867
+**Provide the largest number of bytes found while analyzing the streams.**
+lấy số lớn nhất ở cột thứ 2: 63641
+**Find the command located in the ‘fun’ field ( make sure to reverse the string).**
+dùng olevba phân tích thì vô tình đọc được 1 đoạn shell được rev
+![image](https://user-images.githubusercontent.com/110059218/221369976-93310546-090b-4e6a-af79-b1cb2c244c3f.png)
+**Provide the first domain found in the maldoc.**
+![image](https://user-images.githubusercontent.com/110059218/221370105-4b2edf9b-75a3-4ea1-9fe4-0e6d802fd313.png)
+**Provide the second domain found in the maldoc.**
+2 câu lấy lần lượt các url mà attacker đã cố gắng tải các tệp dll độc hại
+**Provide the name of the first malicious DLL it retrieves from the C2 server.**
+xem path đầu tiên sẽ thấy tên dll được tải xuống đầu tiên: www1.dll
+![image](https://user-images.githubusercontent.com/110059218/221370316-101a511e-3fa0-439e-afb3-5edff80e274e.png)
+**How many DLLs does the maldoc retrieve from the domains?**:5
+**Provide the path of where the malicious DLLs are getting dropped onto?**
+path ở ổ C ảnh trên
+
+**What program is it using to run DLLs?**
+![image](https://user-images.githubusercontent.com/110059218/221370389-36b525d4-583f-4883-829e-6500f840bf3f.png)
+**How many seconds does the function in the maldoc sleep for to fully execute the malicious DLLs?**:15 quy đổi về giây như thời gian ở trên ảnh
+**Under what stream did the main malicious script use to retrieve DLLs from the C2 domains? (Provide the name of the stream).**
+![image](https://user-images.githubusercontent.com/110059218/221370538-032d3e64-c203-44e1-b794-2699398a36f1.png)
+thấy được olestream
+***attacker2***
+**Provide the executable name being downloaded.**
+![image](https://user-images.githubusercontent.com/110059218/221370631-a96fda35-76bb-4038-bf20-58f12d709fec.png)
+dùng tool olevba để phân tích
