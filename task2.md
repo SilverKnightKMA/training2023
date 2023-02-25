@@ -323,3 +323,27 @@ ProgramData hỏi về thư mục chứa file binary
 **Which stream executes the binary that was downloaded?**
 dễ dàng có thể thấy tên stream tải xuông file là: VBA/T -> A3
 ***Attacker 4***
+**Provide the first decoded string found in this maldoc.**
+![image](https://user-images.githubusercontent.com/110059218/221376081-af34e90d-6844-466e-a075-400589f0424f.png)
+có gợi ý đến phép xor bit
+![image](https://user-images.githubusercontent.com/110059218/221376106-79102260-235f-4dd4-aa76-4120e2321b11.png)
+ra kết quả như trong ảnh
+
+**Provide the name of the binary being dropped.**
+![image](https://user-images.githubusercontent.com/110059218/221376249-58fa1b15-232d-41ae-9d7c-0be0d5e15b45.png)
+hint có nói đến việc unxor thì em ném hết vào decode submit thì có 1 kết quả đúng 
+![image](https://user-images.githubusercontent.com/110059218/221376480-3510d679-996c-421c-9aec-285f13cfbefc.png)
+**Provide the folder where the binary is being dropped to.**
+decode phần open
+![image](https://user-images.githubusercontent.com/110059218/221376562-83a27030-ed92-41f6-ad55-286ab2e416bd.png)
+![image](https://user-images.githubusercontent.com/110059218/221377368-388ea146-ff80-4f1e-901b-590545d8cc31.png)
+**Provide the full URI from which the second binary was downloaded (exclude http/https).**
+end function 1 thì tiếp đến sẽ là thời gian download malware thứ 2
+![image](https://user-images.githubusercontent.com/110059218/221376797-bd09daae-96cb-4042-9845-37652a15e2f3.png)
+![image](https://user-images.githubusercontent.com/110059218/221376830-b118adac-1e5b-4126-8353-3e42ffcc68ca.png)
+**Provide the name of the second binary.**
+bin.exe (đoạn cuối của đường link tải file malware)
+***Attacker 5***
+**What is the caption you found in the maldoc?**
+![image](https://user-images.githubusercontent.com/110059218/221377688-f643f98f-631e-491b-9676-148607859a6f.png)
+dùng oletools check từng cái một
