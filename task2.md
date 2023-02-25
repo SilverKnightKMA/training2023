@@ -312,3 +312,14 @@ thấy được olestream
 **Provide the executable name being downloaded.**
 ![image](https://user-images.githubusercontent.com/110059218/221370631-a96fda35-76bb-4038-bf20-58f12d709fec.png)
 dùng tool olevba để phân tích
+**What program is used to run the executable?**
+![image](https://user-images.githubusercontent.com/110059218/221371614-6c34784c-e480-4ab6-b99d-e8c29852c36d.png)
+**Provide the malicious URI included in the maldoc that was used to download the binary (without http/https).**
+sử dụng 1 tool khác để phân tích là viper monkey
+![image](https://user-images.githubusercontent.com/110059218/221372548-1b0e1f25-5dbe-463f-8aa2-a7c205ba1deb.png)
+**What folder does the binary gets dropped in?**
+ProgramData hỏi về thư mục chứa file binary
+![image](https://user-images.githubusercontent.com/110059218/221372720-aedc1769-7238-4035-b1b8-ba8fbac3fde3.png)
+**Which stream executes the binary that was downloaded?**
+dễ dàng có thể thấy tên stream tải xuông file là: VBA/T -> A3
+***Attacker 4***
