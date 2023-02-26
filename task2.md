@@ -343,7 +343,22 @@ end function 1 thì tiếp đến sẽ là thời gian download malware thứ 2
 ![image](https://user-images.githubusercontent.com/110059218/221376830-b118adac-1e5b-4126-8353-3e42ffcc68ca.png)
 **Provide the name of the second binary.**
 bin.exe (đoạn cuối của đường link tải file malware)
+
 ***Attacker 5***
 **What is the caption you found in the maldoc?**
 ![image](https://user-images.githubusercontent.com/110059218/221377688-f643f98f-631e-491b-9676-148607859a6f.png)
 dùng oletools check từng cái một
+**What is the XOR decimal value found in the decoded-base64 script?**
+![image](https://user-images.githubusercontent.com/110059218/221396202-2f76e500-eab2-4b38-90c3-77d451e1805f.png)
+thục hiện phân tích file doc thì có thấy 1 đoạn chuỗi base64 khi decode ra thì có đoạn gunzip decode tiếp thì value = 35;
+![image](https://user-images.githubusercontent.com/110059218/221396709-d1cec1d6-4e6f-48b2-b639-f2bc28a4e9f2.png)
+**Provide the full user-agent found.**
+decode khi xor với 35 ra được đường dẫn
+![image](https://user-images.githubusercontent.com/110059218/221397012-a4030d1c-5798-423c-b6dd-26e346b9a529.png)
+**Provide the C2 IP address of the Cobalt Strike server.**
+![image](https://user-images.githubusercontent.com/110059218/221397248-d4360ef6-f6c2-422e-8fed-ecc6d28af7cc.png)
+**Provide the path value for the Cobalt Strike shellcode.**
+![image](https://user-images.githubusercontent.com/110059218/221397499-87e3dcfb-bcba-4d67-8d73-26fac5733d6c.png)
+**Provide the port number of the Cobalt Strike C2 Server.**
+**Provide the first two APIs found.**
+2 câu này lấy đáp án từ câu trên
