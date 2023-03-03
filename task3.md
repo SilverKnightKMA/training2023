@@ -44,15 +44,18 @@ in theo chuỗi ra màn hình để lấy flag
 ![image](https://user-images.githubusercontent.com/110059218/222531054-6f890af5-d788-427c-b681-50b62336314b.png)
 ![image](https://user-images.githubusercontent.com/110059218/222531358-34aba2c3-c76f-4dcf-a07f-39d1f743a18b.png)
 sử dụng tool decode online để chuyển đổi về dạng ascii
+
 **Question 4**
 ![image](https://user-images.githubusercontent.com/110059218/222531546-dcc42385-4d7e-4287-bd3e-6c3943018822.png)
 như tiêu đề là base64 thì chúng ta dùng base64 để decode và lấy flag 
 ![image](https://user-images.githubusercontent.com/110059218/222533734-2c00b593-2052-428c-ac1e-2c69d18f40a7.png)
+
 **Question 5**
 ![image](https://user-images.githubusercontent.com/110059218/222533813-3cbeeba0-c535-416f-bcc9-b178fcb7669c.png)
 ![image](https://user-images.githubusercontent.com/110059218/222691105-d9ecb4ca-0683-4deb-9713-ae1c2f1a5213.png)
 sử dụng thư viện mà đề bài cho để làm
 ![image](https://user-images.githubusercontent.com/110059218/222691189-ecd8c372-2f1e-4792-b38a-464e640b01b3.png)
+
 **Question 6**
 ![image](https://user-images.githubusercontent.com/110059218/222658720-f4088c72-bd5f-4ff3-bae6-423a8932858e.png)
 ![image](https://user-images.githubusercontent.com/110059218/222658776-11a9b2b5-a4be-48c1-8466-bf26850e5bb5.png)
@@ -65,6 +68,7 @@ thực hiện xor ngược để ra đoạn flag dạng hex và chuyển về by
 ![image](https://user-images.githubusercontent.com/110059218/222680699-cf80e171-d1e8-460c-854e-6ee4cf55531c.png)
 ![image](https://user-images.githubusercontent.com/110059218/222682117-53811cfb-707d-4e4e-86f1-0ff0e3e5f4ec.png)
 sử dụng tool brute-force lấy được flag
+
 **Question 9**
 ![image](https://user-images.githubusercontent.com/110059218/222682472-c089919e-eba5-4875-8b7d-327f38321e4f.png)
 ![image](https://user-images.githubusercontent.com/110059218/222688016-7aa85c6a-d1a6-40f1-b692-886b81a34654.png)
