@@ -20,18 +20,23 @@ có 2 đoạn mã base64 chúng ta có thể decode được
 **What is the full AWS CLI command used to configure credentials?**
 ![image](https://user-images.githubusercontent.com/110059218/222204172-bd8660a6-bc26-4cce-a76f-378aa643de71.png)
 **What is the 'creation' date of the bucket 'flaws2-logs'?**
+
 search bucket và vào thì có một nhóm được tạo
 ![image](https://user-images.githubusercontent.com/110059218/222224727-84f3be50-0699-4287-a9f3-9f79ad62e66f.png)
 **What is the name of the first generated event -according to time?**
+
 vào thư mục của flaws2-logs và sort theo date tải file tạo đầu tiên để tìm tên
 ![image](https://user-images.githubusercontent.com/110059218/222225681-20e58358-e159-4147-910a-2269b76fc8d6.png)
 **What source IP address generated the event dated 2018-11-28 at 23:03:20 UTC?**
+
 sử dụng 1 tool online để decode file json
 ![image](https://user-images.githubusercontent.com/110059218/222226583-28e214d5-5f07-491b-ab1c-7e3a1c4e9b0c.png)
 đoạn này tải all file về để mò time
 ![image](https://user-images.githubusercontent.com/110059218/222229446-2dbe240e-7a92-4cbc-bfcd-ad0968157c23.png)
 sau một hồi vật lộn thì ra con ip 
+
 **Which IP address does not belong to Amazon AWS infrastructure?**
+
 decode tất cả các file dùng pipe + grep để lấy ra ip 
 ![image](https://user-images.githubusercontent.com/110059218/222969145-6d29e820-ccbb-442d-ac13-2388294f0056.png)
 dùng virustotal tra ip thì ip 104.102.221.250 không thuộc aws
