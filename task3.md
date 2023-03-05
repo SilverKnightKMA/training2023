@@ -31,6 +31,23 @@ sử dụng 1 tool online để decode file json
 đoạn này tải all file về để mò time
 ![image](https://user-images.githubusercontent.com/110059218/222229446-2dbe240e-7a92-4cbc-bfcd-ad0968157c23.png)
 sau một hồi vật lộn thì ra con ip 
+**Which IP address does not belong to Amazon AWS infrastructure?**
+decode tất cả các file dùng pipe + grep để lấy ra ip 
+![image](https://user-images.githubusercontent.com/110059218/222969145-6d29e820-ccbb-442d-ac13-2388294f0056.png)
+dùng virustotal tra ip thì ip 104.102.221.250 không thuộc aws
+
+**Which user issued the 'ListBuckets' request?**
+![image](https://user-images.githubusercontent.com/110059218/222970600-2824d30d-31cc-4bc2-8a5a-d36aa57e326f.png)
+tìm từ khóa ListBuckets và dòng chứa từ khóa với option -n
+![image](https://user-images.githubusercontent.com/110059218/222970636-53583469-cb85-43c0-b74f-ccd6f73d31f0.png)
+user: level3
+
+**What was the first request issued by the user 'level1'?**
+![image](https://user-images.githubusercontent.com/110059218/222970787-683a92ae-3aff-48b7-a01e-0502fe383d01.png)
+tìm và xem thời gian sớm nhất
+![image](https://user-images.githubusercontent.com/110059218/222971329-ded48b5c-9ebd-4c3d-ae4e-1b793722563b.png)
+yêu cầu của user level1 ở đây là creatlogstream
+
 # INTRODUCTION TO CRYPTOHACK
 **Question 1**
 ![image](https://user-images.githubusercontent.com/110059218/222529494-820c3fac-b4f3-48a2-8d44-8ab563365c05.png)
@@ -40,6 +57,7 @@ thực hiện chạy file python và thu được flag luôn
 ![image](https://user-images.githubusercontent.com/110059218/222529667-dea5b081-0cf3-4e18-8aa3-b13d89eb97f1.png)
 ![image](https://user-images.githubusercontent.com/110059218/222530718-56f06213-3a46-426d-b66f-aad47954b841.png)
 in theo chuỗi ra màn hình để lấy flag
+
 **Question 3**
 ![image](https://user-images.githubusercontent.com/110059218/222531054-6f890af5-d788-427c-b681-50b62336314b.png)
 ![image](https://user-images.githubusercontent.com/110059218/222531358-34aba2c3-c76f-4dcf-a07f-39d1f743a18b.png)
