@@ -99,3 +99,6 @@ sử dụng tool brute-force lấy được flag
 giải thích sơ về code:
 đầu tiên đầu bài có nói nhớ định dạng cờ để có thể decode thì chúng ta có thể thấy cờ sẽ có phần crypto{ và nội dung và }
 từ đó ta có thể đoán để tìm ra key để decode
+# Obsecure
+đoạn code php kẻ tấn công đã cố tình mã hóa để làm khó khăn trong việc đọc code
+![image](https://user-images.githubusercontent.com/110059218/223773331-0e2513a1-14e6-4f21-8635-a72d140ecd12.png)
