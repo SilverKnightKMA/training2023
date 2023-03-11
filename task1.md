@@ -31,6 +31,7 @@ https://brainly.com/question/25315695?cb=1676085236358
 ![image](https://user-images.githubusercontent.com/110059218/218237404-efa2a482-6d70-4a76-86d0-bc1175c0f1ad.png)
 >fdisk is a command used to view and alter the partitioning scheme used on your hard drive.
 *What switch would you use to list the current partitions?:*
+sử dụng pipe(đường ống) kết hợp cùng grep(tìm 1 chuỗi) để có kết quả
 ![image](https://user-images.githubusercontent.com/110059218/218237507-1b83ce5c-d937-40d0-ba8c-edbfdf3016c8.png)
 *nano is an easy-to-use text editor for Linux. There are arguably better editors (Vim, being the obvious choice); however, nano is a great one to start with.*
 *What switch would you use to make a backup when opening a file with nano?*
@@ -45,12 +46,28 @@ https://brainly.com/question/25315695?cb=1676085236358
 ![image](https://user-images.githubusercontent.com/110059218/218238086-078971af-62db-455e-b6ec-af3ad562656e.png)
 *Running Your First few Commands*
 >If we wanted to output the text "TryHackMe", what would our command be?: echo TryHackMe
+
 *What is the username of who you're logged in as on your deployed Linux machine?*
+sử dụng câu lệnh whoami để kiểm tra user mình đang sử dụng
+cd: thay đổi thư mục mà chúng ta đang đứng
 ![image](https://user-images.githubusercontent.com/110059218/218238176-5ba9abf4-df6b-479b-9da0-4fc37e920f2d.png)
+
 **Interacting With the Filesystem!**
+ls: liệt kê các file và folder(không bao gồm các file ẩn)
+cat: đọc một file hoặc có thể ghép nội dung các file lại với nhau, ghi đè hoặc tạo một file mới
+pwd: kiểm tra thư mục mà mình đang đứng
+
 ![image](https://user-images.githubusercontent.com/110059218/218238443-4ee66114-e8f0-4f22-ad3b-437034ab09c8.png)
+* question 1
+dùng lệnh ls để kiểm tra số thư mục đang có
+* question 2
+thực hiện cd vào từng thư mục để kiểm tra hoặc dùng lệnh ls để kiểm tra với option -R
 ![image](https://user-images.githubusercontent.com/110059218/218238464-4a5fe5a2-4c5a-4308-a1cc-3eab106880f5.png)
+
 **Searching for Files**
+&: thực hiện chạy ngầm task
+>: ghi đè nội dùng file
+>>: ghi tiếp vào cuối file
 ![image](https://user-images.githubusercontent.com/110059218/218238552-31c07662-ec7a-4154-8c99-c1199811a29c.png)
 ![image](https://user-images.githubusercontent.com/110059218/218238559-6d9467fb-4cd1-4f14-8072-f778d8244070.png)
 **An Introduction to Shell Operators**
@@ -60,6 +77,9 @@ https://brainly.com/question/25315695?cb=1676085236358
 ![image](https://user-images.githubusercontent.com/110059218/218239973-9ee543ea-7fa5-4767-a47c-fbf406e58894.png)
 ![image](https://user-images.githubusercontent.com/110059218/218239982-b6104382-bb8b-438e-8646-681e91092641.png)
 **Filesystem Interaction Continued**
+touch: tạo 1 file rỗng mới
+file: kiểm tra định dạng của file
+cat: đọc file
 ![image](https://user-images.githubusercontent.com/110059218/218240133-ca643b49-4b57-47eb-ab3b-406dee3075b1.png)
 **Permissions 101**
 ![image](https://user-images.githubusercontent.com/110059218/218240189-fb864f8d-ce0b-4da0-809f-866fa7627089.png)
