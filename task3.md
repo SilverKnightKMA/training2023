@@ -1,9 +1,19 @@
 # emo - hack the box
-trích xuất doc từ oledump.py / hbrid-analysis ra ta được 1 đoạn chuỗi thử giải mã thì là 1 đoạn base64
-thêm 1 số thứ có thể đọc qua được định dạng đoạn văn bản 
+đầu tiên thực hiện upload file lên hybrid-analysis kết hợp với việc phân tích tĩnh với bộ công cụ oletools
+![image](https://user-images.githubusercontent.com/110059218/224494335-a42f2035-8c87-4326-ad12-d8885c5eafe6.png)
+khi up lên chúng ta có thể thấy người tấn công cố gắng để chạy powershell
+
+chúng ta cần có 1 tool để decode và tool mình chọn ở đây là [Cyberchef](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+một kỹ thuật thường thấy khi phân tích word tác giả luôn luôn cố gắng làm xáo trộn khiến người đọc khó hiểu nội dung bằng các null bytes và các ký tự được replace có thể phân tích bằng oletools
+![image](https://user-images.githubusercontent.com/110059218/224495302-5fe44761-22a6-4d6d-ac71-87726eb3bba5.png)
+phần sau có thực hiện việc nối chuỗi theo thứ tự khác nhau nhằm làm khó người phân tích
+![image](https://user-images.githubusercontent.com/110059218/224494738-1113d3a9-12cf-4a0e-9e1c-42031d5214bc.png)
+đoạn văn bản sau khi decode sơ sơ
 ![image](https://user-images.githubusercontent.com/110059218/222190320-f64506f7-9184-4fa5-ba65-a7937311139d.png)
 ![image](https://user-images.githubusercontent.com/110059218/222190444-b4f6981c-2c53-4989-8cbf-d975db69c4be.png)
-chú ý đoạn cuối được mã hóa bởi base64 và đã được xor bên trên vì vậy tạm thời bỏ qua một số phần khác và tập trung chính vào những đoạn có liên quan đến chuỗi đó
+thực hiện replace và xóa bớt bằng tay bỏ qua một số phần như tạo thư mục hay download xuống
+sau đó thực hiện chạy trực tiêp trên powershell
+* chú ý đoạn cuối được mã hóa bởi base64 và đã được xor bên trên vì vậy tạm thời bỏ qua một số phần khác và tập trung chính vào những đoạn có liên quan đến chuỗi đó
 ![image](https://user-images.githubusercontent.com/110059218/222198785-13912241-cbbe-4f16-bec4-a86b1c3c563f.png)
 lấy được 1 đoạn bị mã hóa và chúng ta chỉ cần lấy ra và xor 0xdf rồi decode bằng base64
 ![image](https://user-images.githubusercontent.com/110059218/222198998-eeb68e68-0bc2-4cfe-909f-afd6f45bbcdd.png)
