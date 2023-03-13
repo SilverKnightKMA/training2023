@@ -18,6 +18,8 @@ ip adress: 10.0.2.15
 **What was the DHCP LeaseObtainedTime?**
 search như các câu trên
 thu được kết quả dạng isotime, có thể dùng python convert hoặc dùng tool online
+![image](https://user-images.githubusercontent.com/110059218/224698308-6dd8c5b8-19a1-4a64-b9b2-9189809debff.png)
+![image](https://user-images.githubusercontent.com/110059218/224698340-7e933091-8815-43ed-bc6e-53e897ca9a5f.png)
 
 **What is the computer SID?**
 thực hiện search: computer sid registry
