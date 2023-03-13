@@ -6,7 +6,7 @@ phần này kiến thức chủ yếu liên quan đến hkey local machine
 search với keyword: computername registry
 ![image](https://user-images.githubusercontent.com/110059218/224646446-98b89045-7d76-4bf8-87d5-1c1a12e0c419.png)
 dùng công cụ registry explorer
-* link tải [tool]()
+* link tải [tool](https://drive.google.com/file/d/19EW3ZJkz-Qac6Tt1r8suNgBOPAmGkDq1/view?usp=share_link)
 ![image](https://user-images.githubusercontent.com/110059218/224647405-db32fa7c-40a3-409e-8085-576be996f329.png)
 -> đáp án: 4ORENSICS
 **What is the computer IP?**
