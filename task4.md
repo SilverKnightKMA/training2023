@@ -127,3 +127,6 @@ tham khảo [tại](https://whitehat.vn/threads/computer-forensics-trich-luc-cac
 ![image](https://user-images.githubusercontent.com/110059218/225688433-d0b2b53c-90b6-4481-bc80-f07cf43ee4ef.png)
 
 **One of the installed applications is a file shredder. What is the name of the application? (two words space separated)**
+
+**How many prefetch files were discovered on the system?**
+
