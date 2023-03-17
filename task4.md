@@ -166,4 +166,14 @@ vào thùng rác check meta 2 ảnh thì có thấy 1 ảnh có độ phân gi�
 nhưng đây là tên lúc đã bị xóa 
 ![image](https://user-images.githubusercontent.com/110059218/225954936-596768ec-0102-482a-ad60-a861c8ab3a73.png)
 
-****
+đoạn này mình bị stuck nên có xem hint thì có nói file gốc có tồn tại trong máy(khá bất ngờ)
+![image](https://user-images.githubusercontent.com/110059218/225970844-fcd9d54c-856f-4af4-af83-75ebbe544562.png)
+tìm một lúc thì có thấy một file có ảnh không bị che như file kia
+
+**Provide the name of the directory where information about jump lists items (created automatically by the system) is stored?**
+
+tham khảo [tại](https://social.technet.microsoft.com/Forums/windows/en-US/900098c0-12d9-43c2-9368-45d28afe59c1/jump-list-traffic-automaticdestinationsms?forum=winserverGP)
+
+**Using JUMP LIST analysis, provide the full path of the application with the AppID of "aa28770954eaeaaa" used to bypass network security monitoring controls.**
+
+**Spotlight**
