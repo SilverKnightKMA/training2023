@@ -176,4 +176,23 @@ tham khảo [tại](https://social.technet.microsoft.com/Forums/windows/en-US/90
 
 **Using JUMP LIST analysis, provide the full path of the application with the AppID of "aa28770954eaeaaa" used to bypass network security monitoring controls.**
 
-**Spotlight**
+# Spotlight
+**What version of macOS is running on this image?**
+
+search: macOS find operating system version tìm ra bài viết có hướng dẫn đi đến file trong hệ thống
+![image](https://user-images.githubusercontent.com/110059218/226003041-957e0528-3767-4c1e-b8a6-82a46ff2768d.png)
+![image](https://user-images.githubusercontent.com/110059218/226003137-1542b461-5bf4-4a44-b79e-8505e79d69a2.png)
+
+amazing -> version: 10.15
+
+**What "competitive advantage" did Hansel lie about in the file AnotherExample.jpg? (two words)**
+
+trích xuất file AnotherExample.jpg ra và dùng lệnh strings để lấy chuỗi trong ảnh(có thể dùng hxd)
+
+![image](https://user-images.githubusercontent.com/110059218/226007338-587ec770-f520-4644-b428-78e3217378a5.png)
+-> flip phone
+**How many bookmarks are registered in safari?**
+
+search google: Safari Bookmarks location lấy đường dẫn vào file để lấy kết quả!
+
+[Uploading image.png…]()
