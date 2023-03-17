@@ -133,5 +133,37 @@ tham khảo [tại](https://whitehat.vn/threads/computer-forensics-trich-luc-cac
 
 **One of the installed applications is a file shredder. What is the name of the application? (two words space separated)**
 
-**How many prefetch files were discovered on the system?**
+**How many prefetch files were discovered on the system?**.
 
+**Using prefetch, determine when was the last time ZENMAP.EXE-56B17C4C.pf was executed?**
+![image](https://user-images.githubusercontent.com/110059218/225945263-c7de3d7a-420a-4ac0-a793-eeeab56e85fd.png)
+
+dùng window prefetch để xem thời gian
+
+**A JAR file for an offensive traffic manipulation tool was executed. What is the absolute path of the file?**
+
+mount ổ vào máy và search tên file .jar kết hợp với search google về tính năng của công cụ
+
+![image](https://user-images.githubusercontent.com/110059218/225945518-7925f389-06d8-415e-8572-0579ef73fd37.png)
+![image](https://user-images.githubusercontent.com/110059218/225945616-eb806f7a-70c3-48c9-ad3f-14189109efc0.png)
+có thể thấy đây chính là tool mà bài đề cập đến(tham khảo tại [đây](https://viblo.asia/p/burp-suite-tro-thu-dac-luc-cho-tester-va-pentester-trong-kiem-tra-ung-dung-web-E375z4GWZGW))
+->C:\Users\Hunter\Downloads\burpsuite_free_v1.7.03.jar
+
+**The suspect employee tried to exfiltrate data by sending it as an email attachment. What is the name of the suspected attachment?**
+
+mỏ pst viewer và mở file email được backup lại khi nãy và theo dõi cuộc trò chuyện của nhân viên
+
+![image](https://user-images.githubusercontent.com/110059218/225949082-39581c03-f09f-4cd4-b663-fad8df46299b.png)
+nhân viên đã nén ảnh và gửi đi->đáp án:pictures.7z
+
+**Shellbags shows that the employee created a folder to include all the data he will exfiltrate. What is the full path of that folder?**
+**The user deleted two JPG files from the system and moved them to $Recycle-Bin. What is the file name that has the resolution of 1920x1200?**
+
+vào thùng rác check meta 2 ảnh thì có thấy 1 ảnh có độ phân giải 1920x1200
+
+![image](https://user-images.githubusercontent.com/110059218/225954191-6fd480fa-16d8-4dca-b1ab-465eca2b5cd5.png)
+-> $RP3TBNW.jpg
+nhưng đây là tên lúc đã bị xóa 
+![image](https://user-images.githubusercontent.com/110059218/225954936-596768ec-0102-482a-ad60-a861c8ab3a73.png)
+
+****
