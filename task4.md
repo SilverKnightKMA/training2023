@@ -195,4 +195,53 @@ trích xuất file AnotherExample.jpg ra và dùng lệnh strings để lấy ch
 
 search google: Safari Bookmarks location lấy đường dẫn vào file để lấy kết quả!
 
-[Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/110059218/226110553-1c500452-c329-45cd-8c17-276505bfc718.png)
+
+![image](https://user-images.githubusercontent.com/110059218/226112745-74398bb8-c9d6-4dd5-a86e-be3effebac08.png)
+thực hiện mount ổ và dùng tool safari_bm để phân tích file ->13
+tham khảo sử dụng tool tại [đây](https://jafat.sourceforge.net/Analyzing_Safari_With_SFT.pdf)
+
+**What's the content of the note titled "Passwords"?**
+
+search google: macos notes location
+tool mình sử dụng trong (bài này)[https://github.com/ydkhatri/mac_apt/wiki/Artifact-Only-Mode]
+xuất file về dạng csv cho dễ đọc
+
+![image](https://user-images.githubusercontent.com/110059218/226113978-b722733a-f858-4420-ab35-2bb12127fc3d.png)
+![image](https://user-images.githubusercontent.com/110059218/226114001-f65e04a6-008e-410a-8d84-586d4061276f.png)
+titles: Passwords
+
+**Provide the MAC address of the ethernet adapter for this machine.**
+
+link mình tham khảo một số đường đẫn đến lưu trữ thông tin hệ thông của mac os tại [đây](https://davidkoepi.wordpress.com/2013/07/06/macforensics4/)
+![image](https://user-images.githubusercontent.com/110059218/226114103-4cc49a7c-f39d-42d9-84a3-717d47925169.png)
+![image](https://user-images.githubusercontent.com/110059218/226114151-7b774f98-a57a-429a-8110-b49725b24adf.png)
+tìm thấy mac adress
+
+**Name the data URL of the quarantined item.**
+
+search: macOS quarantine database
+![image](https://user-images.githubusercontent.com/110059218/226114914-3f3b3642-d09f-4317-b707-544f30e80d03.png)
+lấy được đường dẫn đến file cần phân tích
+![image](https://user-images.githubusercontent.com/110059218/226114926-b5b09059-6d59-4ab3-a70a-9f0de839001d.png)
+
+**What app did the user "sneaky" try to install via a .dmg file? (one word)**
+search tìm kiếm: macos terminal history và có tìm được cái này
+https://stackoverflow.com/questions/41780746/searching-your-command-history-on-macos-terminal
+![image](https://user-images.githubusercontent.com/110059218/226115226-d1d6e5ed-ae18-4026-b93c-b950787889aa.png)
+![image](https://user-images.githubusercontent.com/110059218/226115283-7f3b8aa7-4d8c-402e-8309-8fc48378d6d5.png)
+-> silenteye-0.4.1b-snowleopard.dmg
+
+**What was the file 'Examplesteg.jpg' renamed to?**
+
+https://apple.stackexchange.com/questions/354039/what-is-the-fseventsd-log-for
+lấy file về và dùng tool của question trước để phân tích
+![image](https://user-images.githubusercontent.com/110059218/226119212-fbe163e9-bcd4-45b9-ac98-2b6a80080082.png)
+mở file phân tích ra có
+![image](https://user-images.githubusercontent.com/110059218/226119315-e2865b9c-1133-4a44-bcf9-31cd7e3cc7d9.png)
+-> GoodExample.jpg
+
+**How much time was spent on mail.zoho.com on 4/20/2020?**
+![image](https://user-images.githubusercontent.com/110059218/226119624-460e8658-29af-48a7-9a9e-dcd18d44c481.png)
+sử dụng autopsy có tự xuất ra 1 file phân tích lại disk vào đấy sẽ lấy được thời gian truy cập web của người dùng
+![image](https://user-images.githubusercontent.com/110059218/226119829-ada4704b-2d1d-4015-8a8d-c2ac3f428cf0.png)
