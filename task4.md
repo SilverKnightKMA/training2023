@@ -249,9 +249,20 @@ sử dụng autopsy có tự xuất ra 1 file phân tích lại disk vào đấy
 ![image](https://user-images.githubusercontent.com/110059218/226286710-d32122ff-5c44-4056-8a9c-93f85b3a160f.png)
 
 **What was exactly typed in the Spotlight search bar on 4/20/2020 02:09:48**
+
 Google: macOS spotlight artifacts
+sẽ cho ra kết quả:
+Users/sneaky/Library/Application Support/com.apple.spotlight/
+![image](https://user-images.githubusercontent.com/110059218/226409546-967211ec-9968-485b-9dd7-500ef475134c.png)
 
 **Find the flag in the GoodExample.jpg image. It's hidden with better tools.**
 phần details có ghi tool steghide -> ảnh ẩn bằng steghide
 lúc đầu mình có nghĩ rằng phải có pass nhưng thử nhập pass trắng thì có extract ra được 1 file text và thu được flag
 ![image](https://user-images.githubusercontent.com/110059218/226304829-62a5710f-ba33-4b9d-b316-74eac35767c0.png)
+nội dung mail nói đến tên tệp và ip down về
+![image](https://user-images.githubusercontent.com/110059218/226413683-9c065d2c-9900-4d14-b1bd-2d8ac53fb0af.png)
+
+# Reminiscent
+![image](https://user-images.githubusercontent.com/110059218/226411783-f9f3abf9-4359-483e-b1be-a622b987b6d0.png)
+đầu tiên dùng vol lấy image info của mem để thực hiện các phân tích sau
+![image](https://user-images.githubusercontent.com/110059218/226412444-b637f917-ae96-4629-b8fa-b381d503446c.png)
