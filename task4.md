@@ -186,11 +186,10 @@ search: macOS find operating system version tìm ra bài viết có hướng d�
 amazing -> version: 10.15
 
 **What "competitive advantage" did Hansel lie about in the file AnotherExample.jpg? (two words)**
-
-trích xuất file AnotherExample.jpg ra và dùng lệnh strings để lấy chuỗi trong ảnh(có thể dùng hxd)
-
-![image](https://user-images.githubusercontent.com/110059218/226007338-587ec770-f520-4644-b428-78e3217378a5.png)
+![image](https://user-images.githubusercontent.com/110059218/226287959-b06a5636-efd6-4708-978a-c42676aedace.png)
+xem file secret thu được:
 -> flip phone
+
 **How many bookmarks are registered in safari?**
 
 search google: Safari Bookmarks location lấy đường dẫn vào file để lấy kết quả!
@@ -245,3 +244,14 @@ mở file phân tích ra có
 ![image](https://user-images.githubusercontent.com/110059218/226119624-460e8658-29af-48a7-9a9e-dcd18d44c481.png)
 sử dụng autopsy có tự xuất ra 1 file phân tích lại disk vào đấy sẽ lấy được thời gian truy cập web của người dùng
 ![image](https://user-images.githubusercontent.com/110059218/226119829-ada4704b-2d1d-4015-8a8d-c2ac3f428cf0.png)
+**The main file that stores Hansel's iMessages had a few permissions changes. How many times did the permissions change?**
+![image](https://user-images.githubusercontent.com/110059218/226286628-8a399ad6-ddef-42bc-8777-0010c5ddf21f.png)
+![image](https://user-images.githubusercontent.com/110059218/226286710-d32122ff-5c44-4056-8a9c-93f85b3a160f.png)
+
+**What was exactly typed in the Spotlight search bar on 4/20/2020 02:09:48**
+Google: macOS spotlight artifacts
+
+**Find the flag in the GoodExample.jpg image. It's hidden with better tools.**
+phần details có ghi tool steghide -> ảnh ẩn bằng steghide
+lúc đầu mình có nghĩ rằng phải có pass nhưng thử nhập pass trắng thì có extract ra được 1 file text và thu được flag
+![image](https://user-images.githubusercontent.com/110059218/226304829-62a5710f-ba33-4b9d-b316-74eac35767c0.png)
